@@ -65,7 +65,7 @@
   ],
   "assets": {
     "raster-data": {
-      "href": "home/vishnu/corestack_STAC/data/swb2_saraikela-kharsawan_gobindpur.geojson",
+      "href": "./home/vishnu/corestack_STAC/data/swb2_saraikela-kharsawan_gobindpur.geojson",
       "type": "image/tiff; application=geotiff",
       "title": "Gobindpur LULC Raster (GeoTIFF)",
       "roles": [
@@ -73,7 +73,7 @@
       ]
     },
     "qgis-style": {
-      "href": "home/vishnu/corestack_STAC/data/style_file.qml",
+      "href": "./home/vishnu/corestack_STAC/data/swb_style.qml",
       "type": "application/xml",
       "title": "QGIS Style File",
       "roles": [
@@ -81,7 +81,7 @@
       ]
     },
     "legend": {
-      "href": "home/vishnu/corestack_STAC/data/legend.json",
+      "href": "./home/vishnu/corestack_STAC/data/legend.json",
       "type": "application/json",
       "title": "LULC Legend",
       "roles": [
@@ -94,6 +94,14 @@
       "title": "Thumbnail Preview",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "vector-data": {
+      "href": "./home/vishnu/corestack_STAC/data/swb2_saraikela-kharsawan_gobindpur.geojson",
+      "type": "application/geo+json",
+      "title": "Gobindpur Vector (GEOJSON)",
+      "roles": [
+        "data"
       ]
     }
   }
