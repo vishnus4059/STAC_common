@@ -1,20 +1,18 @@
 {
   "type": "Catalog",
-  "id": "gobindpur-vector-catalog",
+  "id": "gobindpur-geojson-catalog",
   "stac_version": "1.1.0",
-  "description": "STAC Catalog for Gobindpur SWB3 vector layer (GeoJSON format)",
+  "description": "",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
-      "type": "application/json",
-      "title": "Gobindpur SWB3 Vector Dataset"
+      "type": "application/json"
     },
     {
       "rel": "item",
-      "href": "./gobindpur-swb3-vector/gobindpur-swb3-vector.json",
+      "href": "./gobindpur-geojson/gobindpur-geojson.json",
       "type": "application/geo+json"
     }
-  ],
-  "title": "Gobindpur SWB3 Vector Dataset"
+  ]
 }

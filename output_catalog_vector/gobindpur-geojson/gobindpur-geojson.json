@@ -1,0 +1,100 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "id": "gobindpur-geojson",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          86.2031453696048,
+          22.438299037364732
+        ],
+        [
+          86.2031453696048,
+          22.761334210815875
+        ],
+        [
+          85.83186726151115,
+          22.761334210815875
+        ],
+        [
+          85.83186726151115,
+          22.438299037364732
+        ],
+        [
+          86.2031453696048,
+          22.438299037364732
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    85.83186726151115,
+    22.438299037364732,
+    86.2031453696048,
+    22.761334210815875
+  ],
+  "properties": {
+    "start_datetime": "2023-06-01T00:00:00Z",
+    "end_datetime": "2024-03-31T00:00:00Z",
+    "proj:epsg": 4326,
+    "proj:bbox": [
+      85.83186726151115,
+      22.438299037364732,
+      86.2031453696048,
+      22.761334210815875
+    ],
+    "classification:classes": [],
+    "datetime": "2023-06-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "raster-data": {
+      "href": "home/vishnu/corestack_STAC/data/swb2_saraikela-kharsawan_gobindpur.geojson",
+      "type": "image/tiff; application=geotiff",
+      "title": "Gobindpur LULC Raster (GeoTIFF)",
+      "roles": [
+        "data"
+      ]
+    },
+    "qgis-style": {
+      "href": "home/vishnu/corestack_STAC/data/style_file.qml",
+      "type": "application/xml",
+      "title": "QGIS Style File",
+      "roles": [
+        "style"
+      ]
+    },
+    "legend": {
+      "href": "home/vishnu/corestack_STAC/data/legend.json",
+      "type": "application/json",
+      "title": "LULC Legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "thumbnail": {
+      "href": "../../data/thumbnail.png",
+      "type": "home/vishnu/corestack_STAC/data/thumbnail.png",
+      "title": "Thumbnail Preview",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

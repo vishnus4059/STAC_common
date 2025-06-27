@@ -131,7 +131,7 @@
   ],
   "assets": {
     "raster-data": {
-      "href": "../../data/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "./home/vishnu/corestack_STAC/data/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Gobindpur LULC Raster (GeoTIFF)",
       "roles": [
@@ -139,7 +139,7 @@
       ]
     },
     "qgis-style": {
-      "href": "../../data/style_file.qml",
+      "href": "./home/vishnu/corestack_STAC/data/style_file.qml",
       "type": "application/xml",
       "title": "QGIS Style File",
       "roles": [
@@ -147,7 +147,7 @@
       ]
     },
     "legend": {
-      "href": "../../data/legend.json",
+      "href": "./home/vishnu/corestack_STAC/data/legend.json",
       "type": "application/json",
       "title": "LULC Legend",
       "roles": [
@@ -155,7 +155,7 @@
       ]
     },
     "thumbnail": {
-      "href": "../../data/thumbnail.png",
+      "href": "./home/vishnu/corestack_STAC/data/thumbnail.png",
       "type": "image/png",
       "title": "Thumbnail Preview",
       "roles": [

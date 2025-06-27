@@ -2,12 +2,17 @@
   "type": "Catalog",
   "id": "gobindpur-lulc-catalog",
   "stac_version": "1.1.0",
-  "description": "Land Use Land Cover (LULC) classification is a method used to identify different features on the Earth's surface, such as forests, rivers, croplands, or buildings, and is used for monitoring and planning land use. The LULC data is derived from multiple sources including multi-spectral data from Landsat-7, Landsat-8, Sentinel-2, MODIS, and Sentinel-1 satellite constellations, Dynamic World data, and Open Street Maps. The classification process involves a series of binary classifications, followed by error-correction layers for each LULC class. Dynamic World data is used to identify built-up areas, barren lands, and shrubs, while Sentinel-1 SAR data is used to identify water pixels, particularly in the Kharif season. Non-classified pixels are categorized into croplands and forests/trees, with further classification of cropland pixels into single Kharif, single non-Kharif, double, and triple cropping. The LULC classifier generates annual outputs from 2003 to the present, with a spatial resolution of 10m. The model has an accuracy of 83% in classifying areas by cropping intensity and 94% accuracy on standard LULC labels. LULC data is used for tracking anthropogenic activities, designing sustainable land management policies, understanding changes in crop water usage, and detecting water bodies with seasonal availability.",
+  "description": "Land Use Land Cover (LULC) classification is a method used to identify different features on the Earth's surface, such as forests, rivers, croplands, or buildings...",
   "links": [
     {
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./gobindpur-lulc/gobindpur-lulc.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "item",
