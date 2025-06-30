@@ -195707,7 +195707,7 @@
   ],
   "assets": {
     "data": {
-      "href": "http://localhost:8000/gobindpur/swb2_saraikela-kharsawan_gobindpur.geojson",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/main/data/gobindpur/swb2_saraikela-kharsawan_gobindpur.geojson",
       "type": "application/geo+json",
       "title": "SWB GeoJSON",
       "roles": [
@@ -195715,7 +195715,7 @@
       ]
     },
     "thumbnail": {
-      "href": "http://localhost:8000/gobindpur/vector/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/main/data/gobindpur/vector/thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -195723,7 +195723,7 @@
       ]
     },
     "style": {
-      "href": "http://localhost:8000/gobindpur/vector/style.json",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/main/data/gobindpur/vector/style.json",
       "type": "application/json",
       "title": "Style JSON",
       "roles": [
