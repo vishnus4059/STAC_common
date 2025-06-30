@@ -125,15 +125,15 @@
   ],
   "assets": {
     "data": {
-      "href": "/home/vishnu/corestack_STAC/STAC_common/data/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "../../saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff; profile=cloud-optimized",
-      "title": "LULC COG",
+      "title": "LULC Geotiff",
       "roles": [
         "data"
       ]
     },
     "thumbnail": {
-      "href": "/home/vishnu/corestack_STAC/STAC_common/data/gobindpur/raster/thumbnail.png",
+      "href": "thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -141,7 +141,7 @@
       ]
     },
     "legend": {
-      "href": "/home/vishnu/corestack_STAC/STAC_common/data/gobindpur/raster/legend.json",
+      "href": "legend.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
