@@ -23,6 +23,11 @@
       "rel": "item",
       "href": "./gobindpur-geojson/gobindpur-geojson.json",
       "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./gobindpur-geojson/gobindpur-geojson.json",
+      "type": "application/geo+json"
     }
   ]
 }
