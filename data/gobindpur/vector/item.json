@@ -195689,6 +195689,8 @@
     "title": "SWB Vector - Gobindpur",
     "description": "Micro watershed (SWB) vector layer for Gobindpur",
     "style": [],
+    "start_datetime": "2023-07-01T00:00:00",
+    "end_datetime": "2024-06-30T00:00:00",
     "datetime": "2024-06-30T00:00:00Z"
   },
   "links": [

@@ -40,7 +40,7 @@
     "proj:epsg": 4326,
     "title": "LULC Raster - Gobindpur",
     "description": "Land Use Land Cover raster map of Gobindpur",
-    "legend": [
+    "lulc:classes": [
       {
         "value": 0,
         "label": "clear",
