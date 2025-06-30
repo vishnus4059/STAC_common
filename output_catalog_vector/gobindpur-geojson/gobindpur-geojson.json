@@ -48,7 +48,8 @@
       86.2031453696048,
       22.761334210815875
     ],
-    "datetime": "2023-06-01T00:00:00Z"
+    "datetime": "2023-06-01T00:00:00Z",
+    "classification:classes": []
   },
   "links": [
     {
@@ -64,7 +65,7 @@
   ],
   "assets": {
     "vector-data": {
-      "href": "home/vishnu/corestack_STAC/data/swb2_saraikela-kharsawan_gobindpur.geojson",
+      "href": "./home/vishnu/corestack_STAC/data/swb2_saraikela-kharsawan_gobindpur.geojson",
       "type": "application/geo+json",
       "title": "Gobindpur Vector (GEOJSON)",
       "roles": [
@@ -77,6 +78,22 @@
       "title": "Thumbnail Preview",
       "roles": [
         "thumbnail"
+      ]
+    },
+    "qgis-style": {
+      "href": "../../data/swb_style.qml",
+      "type": "application/xml",
+      "title": "QGIS Style File",
+      "roles": [
+        "style"
+      ]
+    },
+    "legend": {
+      "href": "../../data/legend.json",
+      "type": "application/json",
+      "title": "Legend",
+      "roles": [
+        "metadata"
       ]
     }
   }
