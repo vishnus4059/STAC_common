@@ -8,14 +8,14 @@
       "rel": "root",
       "href": "./catalog.json",
       "type": "application/json",
-      "title": "Corestack Catalogs"
+      "title": "CorestackCatalogs"
     },
     {
       "rel": "child",
       "href": "./gobindpur/catalog.json",
       "type": "application/json",
-      "title": "Gobindpur Catalog"
+      "title": "GobindpurCatalog"
     }
   ],
-  "title": "Corestack Catalogs"
+  "title": "CorestackCatalogs"
 }
