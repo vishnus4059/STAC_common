@@ -1,0 +1,67 @@
+[
+  {
+    "value": 0,
+    "label": "clear",
+    "color": "#000000"
+  },
+  {
+    "value": 1,
+    "label": "built up",
+    "color": "#ff0000"
+  },
+  {
+    "value": 2,
+    "label": "kharif water",
+    "color": "#74ccf4"
+  },
+  {
+    "value": 3,
+    "label": "kharif and rabi water",
+    "color": "#1ca3ec"
+  },
+  {
+    "value": 4,
+    "label": "kharif and rabi and zaid water",
+    "color": "#0f5e9c"
+  },
+  {
+    "value": 5,
+    "label": "croplands",
+    "color": "#f1c232"
+  },
+  {
+    "value": 6,
+    "label": "Tree/Forests",
+    "color": "#38761d"
+  },
+  {
+    "value": 7,
+    "label": "barren lands",
+    "color": "#a9a9a9"
+  },
+  {
+    "value": 8,
+    "label": "Single Kharif Cropping",
+    "color": "#bad93e"
+  },
+  {
+    "value": 9,
+    "label": "Single Non-Kharif Cropping",
+    "color": "#f59d22"
+  },
+  {
+    "value": 10,
+    "label": "Double Cropping",
+    "color": "#ff9371"
+  },
+  {
+    "value": 11,
+    "label": "Triple Cropping",
+    "color": "#b3561d"
+  },
+  {
+    "value": 12,
+    "label": "Shrubs_Scrubs",
+    "color": "#a9a9a9"
+  }
+]
