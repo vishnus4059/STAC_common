@@ -155,6 +155,15 @@
         "thumbnail"
       ]
     },
+    "legend_image": {
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/main/data/Corestack%20Catalogs/gobindpur/raster/legend.png",
+      "type": "image/png",
+      "title": "Legend Image",
+      "roles": [
+        "thumbnail",
+        "metadata"
+      ]
+    },
     "legend": {
       "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/main/data/Corestack%20Catalogs/gobindpur/raster/legend.json",
       "type": "application/json",
