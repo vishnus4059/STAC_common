@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "corestack",
   "stac_version": "1.1.0",
-  "description": "Root catalog containing all subcatalogs like Gobindpur",
+  "description": "Root catalog containing all subcatalogs",
   "links": [
     {
       "rel": "root",
