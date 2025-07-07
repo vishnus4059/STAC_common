@@ -38,7 +38,7 @@
   ],
   "properties": {
     "proj:epsg": "4326",
-    "title": "LULC Raster-Gobindpur",
+    "title": "Raster layer",
     "description": "Land Use Land Cover raster map of Gobindpur",
     "lulc:classes": [
       {
