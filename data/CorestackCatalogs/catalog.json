@@ -1,0 +1,21 @@
+{
+  "type": "Catalog",
+  "id": "corestack",
+  "stac_version": "1.1.0",
+  "description": "Root catalog containing all subcatalogs",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "child",
+      "href": "./gobindpur/catalog.json",
+      "type": "application/json",
+      "title": "GobindpurCatalog"
+    }
+  ],
+  "title": "CorestackCatalogs"
+}
