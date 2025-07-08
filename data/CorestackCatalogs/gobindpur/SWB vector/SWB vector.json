@@ -195687,7 +195687,7 @@
   "properties": {
     "title": "constants.swb_vector_title",
     "description": "constants.swb_vector_description",
-    "style": "style_info_vector",
+    "style": "style_info",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
     "datetime": "2017-07-01T00:00:00Z"
