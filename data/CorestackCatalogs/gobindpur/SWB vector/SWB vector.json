@@ -195765,7 +195765,7 @@
     },
     "style": {
       "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//../data/swb_style.qml",
-      "type": "text/plain",
+      "type": "application/xml",
       "title": "Vector style",
       "roles": [
         "style"
