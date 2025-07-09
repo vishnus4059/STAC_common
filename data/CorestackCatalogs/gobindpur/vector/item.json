@@ -195685,9 +195685,8 @@
     22.761334210815875
   ],
   "properties": {
-    "title": "constants.swb_vector_title",
-    "description": "constants.swb_vector_description",
-    "style": "style_data",
+    "title": "SWB Vector",
+    "description": "SWB vector layer",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
     "datetime": "2017-07-01T00:00:00Z"
@@ -195717,7 +195716,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//data/swb_style.qml",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//../data/swb_style.qml",
       "type": "text/plain",
       "title": "Vector style",
       "roles": [
