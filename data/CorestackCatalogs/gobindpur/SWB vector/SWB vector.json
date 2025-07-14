@@ -195694,183 +195694,147 @@
     "table:columns": [
       {
         "name": "id",
-        "type": "object",
-        "description": ""
+        "type": "object"
       },
       {
         "name": "MWS_UID",
-        "type": "object",
-        "description": ""
+        "type": "object"
       },
       {
         "name": "UID",
-        "type": "object",
-        "description": ""
+        "type": "object"
       },
       {
         "name": "any",
-        "type": "int32",
-        "description": ""
+        "type": "int32"
       },
       {
         "name": "area_17-18",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_18-19",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_19-20",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_20-21",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_21-22",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_22-23",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_23-24",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "area_ored",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "category_sq_m",
-        "type": "object",
-        "description": ""
+        "type": "object"
       },
       {
         "name": "k_17-18",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "k_18-19",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "k_19-20",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "k_20-21",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "k_21-22",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "k_22-23",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "k_23-24",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_17-18",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_18-19",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_19-20",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_20-21",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_21-22",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_22-23",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "kr_23-24",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_17-18",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_18-19",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_19-20",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_20-21",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_21-22",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_22-23",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "krz_23-24",
-        "type": "float64",
-        "description": ""
+        "type": "float64"
       },
       {
         "name": "water",
-        "type": "int32",
-        "description": ""
+        "type": "int32"
       },
       {
         "name": "geometry",
-        "type": "geometry",
-        "description": ""
+        "type": "geometry"
       }
     ],
     "table:row_count": 2306,
