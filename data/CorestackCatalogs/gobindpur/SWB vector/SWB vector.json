@@ -195837,7 +195837,9 @@
         "type": "geometry"
       }
     ],
-    "table:row_count": 2306,
+    "table:summary": {
+      "number_of_records": 2306
+    },
     "datetime": "2017-07-01T00:00:00Z"
   },
   "links": [
