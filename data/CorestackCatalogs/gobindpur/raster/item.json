@@ -156,7 +156,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//../data/style_file.qml",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//../data/style_file_new.qml",
       "type": "application/xml",
       "title": "Raster style",
       "roles": [
