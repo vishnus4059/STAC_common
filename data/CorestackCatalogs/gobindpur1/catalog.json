@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "gobindpur",
+  "id": "gobindpur1",
   "stac_version": "1.1.0",
-  "description": "STAC catalog for gobindpur block",
+  "description": "STAC catalog for gobindpur1 block",
   "links": [
     {
       "rel": "root",
@@ -27,5 +27,5 @@
       "title": "CorestackCatalogs"
     }
   ],
-  "title": "STAC for gobindpur"
+  "title": "STAC for gobindpur1"
 }

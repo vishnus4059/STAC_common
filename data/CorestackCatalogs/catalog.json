@@ -14,7 +14,13 @@
       "rel": "child",
       "href": "./gobindpur/catalog.json",
       "type": "application/json",
-      "title": "GobindpurCatalog"
+      "title": "STAC for gobindpur"
+    },
+    {
+      "rel": "child",
+      "href": "./gobindpur1/catalog.json",
+      "type": "application/json",
+      "title": "STAC for gobindpur1"
     }
   ],
   "title": "CorestackCatalogs"
