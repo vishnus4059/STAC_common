@@ -10,33 +10,33 @@
     "coordinates": [
       [
         [
-          86.20458045231958,
-          22.432459780447456
+          83.26385553822591,
+          18.653067717099802
         ],
         [
-          86.20458045231958,
-          22.762860141946614
+          83.26385553822591,
+          19.23867945081732
         ],
         [
-          85.8297134842565,
-          22.762860141946614
+          82.5496948873509,
+          19.23867945081732
         ],
         [
-          85.8297134842565,
-          22.432459780447456
+          82.5496948873509,
+          18.653067717099802
         ],
         [
-          86.20458045231958,
-          22.432459780447456
+          83.26385553822591,
+          18.653067717099802
         ]
       ]
     ]
   },
   "bbox": [
-    85.8297134842565,
-    22.432459780447456,
-    86.20458045231958,
-    22.762860141946614
+    82.5496948873509,
+    18.653067717099802,
+    83.26385553822591,
+    19.23867945081732
   ],
   "properties": {
     "title": "Raster layer",
@@ -123,18 +123,25 @@
     ],
     "start_datetime": "2023-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
-    "datetime": "2025-07-23T11:58:14.869470Z"
+    "datetime": "2025-07-23T11:58:22.958049Z"
   },
   "links": [
     {
-      "rel": "self",
-      "href": "/home/vishnu/corestack_STAC/data/CorestackCatalogs/gobindpur/raster/item.json",
-      "type": "application/json"
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for koraput"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "roles": [

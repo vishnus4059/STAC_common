@@ -251,12 +251,19 @@ blocks_info = [
         "vector_qml": "swb_style.qml"
     },
     {
-        "block_name": "gobindpur1",
-        "raster_file": "saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
-        "vector_file": "swb2_saraikela-kharsawan_gobindpur.geojson",
+        "block_name": "mirzapur",
+        "raster_file":"Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.tif",
+        "vector_file":"surface_waterbodies_mirzapur_mirzapur.geojson",
         "raster_qml": "style_file.qml",
         "vector_qml": "swb_style.qml"
     },
+    {
+        "block_name": "koraput",
+        "raster_file": "Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
+        "vector_file": "surface_waterbodies_koraput_narayanpatana.geojson",
+        "raster_qml": "style_file.qml",
+        "vector_qml": "swb_style.qml"
+    }
 ]
 
 # 🔁 Generate STAC for each block

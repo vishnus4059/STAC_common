@@ -18,9 +18,15 @@
     },
     {
       "rel": "child",
-      "href": "./gobindpur1/catalog.json",
+      "href": "./mirzapur/catalog.json",
       "type": "application/json",
-      "title": "STAC for gobindpur1"
+      "title": "STAC for mirzapur"
+    },
+    {
+      "rel": "child",
+      "href": "./koraput/catalog.json",
+      "type": "application/json",
+      "title": "STAC for koraput"
     }
   ],
   "title": "CorestackCatalogs"
