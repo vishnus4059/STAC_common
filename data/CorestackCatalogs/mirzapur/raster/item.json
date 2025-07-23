@@ -123,7 +123,7 @@
     ],
     "start_datetime": "2023-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
-    "datetime": "2025-07-23T11:58:22.081274Z"
+    "datetime": "2025-07-23T12:11:00.688264Z"
   },
   "links": [
     {
@@ -142,7 +142,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/CorestackCatalogs/gobindpur/raster/thumbnail.png",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/CorestackCatalogs/gobindpur/raster/mirzapur_raster_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -150,7 +150,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/CorestackCatalogs/gobindpur/raster/legend.json",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/CorestackCatalogs/gobindpur/raster/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m_legend.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [

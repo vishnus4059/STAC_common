@@ -74,7 +74,9 @@ def create_raster_item(filename, raster_path, raster_dir, raster_thumbnail, rast
     generate_raster_thumbnail(raster_path, raster_thumbnail)
     style_info = parse_qml_classes(raster_style_file)
 
-    style_json_path = os.path.join(raster_dir, "legend.json")
+    #style_json_path = os.path.join(raster_dir, "legend.json")
+    legend_filename = f"{os.path.basename(raster_path).replace('.tif', '')}_legend.json"
+    style_json_path = os.path.join(raster_dir, legend_filename)
     with open(style_json_path, "w") as f:
         json.dump(style_info, f, indent=2)
 
@@ -113,14 +115,14 @@ def create_raster_item(filename, raster_path, raster_dir, raster_thumbnail, rast
     #classification_asset.classes = categories
 
     item.add_asset("thumbnail", Asset(
-        href=f"{constants.base_url}/raster/thumbnail.png",
+        href=f"{constants.base_url}/raster/{os.path.basename(raster_thumbnail)}",
         media_type=MediaType.PNG,
         roles=["thumbnail"],
         title="Raster Thumbnail"
     ))
 
     item.add_asset("legend", Asset(
-        href=f"{constants.base_url}/raster/legend.json",
+        href=f"{constants.base_url}/raster/{legend_filename}",
         media_type=MediaType.JSON,
         roles=["metadata"],
         title="Legend JSON"
@@ -176,7 +178,7 @@ def create_vector_item(vector_filename, vector_path, vector_dir, vector_thumbnai
     ))
 
     item.add_asset("thumbnail", Asset(
-        href=f"{constants.base_url}/vector/thumbnail.png",
+        href=f"{constants.base_url}/vector/{os.path.basename(vector_thumbnail)}",
         media_type=MediaType.PNG,
         roles=["thumbnail"],
         title="Vector Thumbnail"
@@ -208,8 +210,8 @@ def generate_stac_for_block(info):
     vector_dir = os.path.join(block_dir, 'vector')
     os.makedirs(raster_dir, exist_ok=True)
     os.makedirs(vector_dir, exist_ok=True)
-    raster_thumbnail = os.path.join(raster_dir, 'raster_thumbnail.png')
-    vector_thumbnail = os.path.join(vector_dir, 'vector_thumbnail.png')
+    raster_thumbnail = os.path.join(raster_dir, f'{block}_raster_thumbnail.png')
+    vector_thumbnail = os.path.join(vector_dir, f'{block}_vector_thumbnail.png')
 
     raster_item = create_raster_item(raster_filename, raster_path, raster_dir, raster_thumbnail, raster_style_file)
     vector_item = create_vector_item(vector_filename, vector_path, vector_dir, vector_thumbnail, vector_style_file)
