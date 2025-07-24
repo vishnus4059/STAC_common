@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# Multi-block STAC Catalog Generator
+
 
 import os
 import json

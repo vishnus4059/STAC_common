@@ -1,0 +1,27 @@
+{
+  "type": "Catalog",
+  "id": "odisha",
+  "stac_version": "1.1.0",
+  "description": "STAC catalog for data in odisha",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "child",
+      "href": "./koraput/catalog.json",
+      "type": "application/json",
+      "title": "STAC for koraput"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    }
+  ],
+  "title": "STAC for odisha"
+}
