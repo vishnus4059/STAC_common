@@ -11350,335 +11350,178 @@
     "table:columns": [
       {
         "name": "id",
-        "type": "object"
-      },
-      {
-        "name": "Block/Tehsil Name",
-        "type": "object"
-      },
-      {
-        "name": "District Name",
-        "type": "object"
+        "type": "object",
+        "description": ""
       },
       {
         "name": "MWS_UID",
-        "type": "object"
-      },
-      {
-        "name": "State Name",
-        "type": "object"
+        "type": "object",
+        "description": "microwatershed id"
       },
       {
         "name": "UID",
-        "type": "object"
-      },
-      {
-        "name": "Village Name",
-        "type": "object"
+        "type": "object",
+        "description": ""
       },
       {
         "name": "any",
-        "type": "int32"
+        "type": "int32",
+        "description": ""
       },
       {
         "name": "area_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_23-24",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_ored",
-        "type": "float64"
-      },
-      {
-        "name": "basin_name",
-        "type": "object"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "category_sq_m",
-        "type": "object"
-      },
-      {
-        "name": "cca_water_body",
-        "type": "object"
-      },
-      {
-        "name": "census_id",
-        "type": "object"
-      },
-      {
-        "name": "construcion_year",
-        "type": "object"
-      },
-      {
-        "name": "construction_cost",
-        "type": "object"
-      },
-      {
-        "name": "filled_up_storage_name",
-        "type": "object"
-      },
-      {
-        "name": "filled_up_storage_space_name",
-        "type": "object"
-      },
-      {
-        "name": "ipc_water_body",
-        "type": "object"
-      },
-      {
-        "name": "ismissing",
-        "type": "object"
+        "type": "object",
+        "description": ""
       },
       {
         "name": "k_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": "kharif water presence in 2017 2018"
       },
       {
         "name": "k_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": "kharif water presence in 2018 2019"
       },
       {
         "name": "k_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": "kharif water presence in 2019 2020"
       },
       {
         "name": "k_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "k_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "k_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "k_23-24",
-        "type": "float64"
-      },
-      {
-        "name": "khasra_number",
-        "type": "object"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_23-24",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_23-24",
-        "type": "float64"
-      },
-      {
-        "name": "latitude_dec",
-        "type": "object"
-      },
-      {
-        "name": "longitude_dec",
-        "type": "object"
-      },
-      {
-        "name": "manmade_water_body_type_name",
-        "type": "object"
-      },
-      {
-        "name": "max_depth_water_body_fully_filled",
-        "type": "object"
-      },
-      {
-        "name": "nature_of_storage",
-        "type": "object"
-      },
-      {
-        "name": "no_people_benefited_by_water_body",
-        "type": "object"
-      },
-      {
-        "name": "no_town_cities_benefited",
-        "type": "object"
-      },
-      {
-        "name": "no_villages_benefited",
-        "type": "object"
-      },
-      {
-        "name": "reason_water_body_in_use_name2",
-        "type": "object"
-      },
-      {
-        "name": "reason_water_body_in_use_name3",
-        "type": "object"
-      },
-      {
-        "name": "ref_reason_water_body_in_use_id1_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_selection_id_dip_sip_exists_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_selection_id_encroachment_assessed_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_selection_id_water_body_encroached_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_selection_id_wua_exists_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_water_body_in_use_id_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_water_body_type_id_name",
-        "type": "object"
-      },
-      {
-        "name": "ref_water_body_under_repair_renovation_restoration_id_name",
-        "type": "object"
-      },
-      {
-        "name": "rural_or_urban",
-        "type": "object"
-      },
-      {
-        "name": "scheme_status_reason_name",
-        "type": "object"
-      },
-      {
-        "name": "scheme_under_revival_is_done",
-        "type": "object"
-      },
-      {
-        "name": "si_no_of_water_body_within_village_town",
-        "type": "object"
-      },
-      {
-        "name": "storage_capacity_water_body_original",
-        "type": "object"
-      },
-      {
-        "name": "storage_capacity_water_body_present",
-        "type": "object"
-      },
-      {
-        "name": "sub_basin_name",
-        "type": "object"
-      },
-      {
-        "name": "town_municipalty_name",
-        "type": "object"
-      },
-      {
-        "name": "unique_id",
-        "type": "object"
-      },
-      {
-        "name": "ward_name",
-        "type": "object"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "water",
-        "type": "int32"
-      },
-      {
-        "name": "water_body_loc_name",
-        "type": "object"
-      },
-      {
-        "name": "water_body_name",
-        "type": "object"
-      },
-      {
-        "name": "water_body_nature_name",
-        "type": "object"
-      },
-      {
-        "name": "water_body_ownership_name",
-        "type": "object"
-      },
-      {
-        "name": "water_spread_area_of_water_body",
-        "type": "object"
-      },
-      {
-        "name": "geometry",
-        "type": "geometry"
+        "type": "int32",
+        "description": ""
       }
     ],
     "table:summary": {
@@ -11710,7 +11553,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/vector/CorestackCatalogs/odisha/koraput/vector/koraput_vector_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/CorestackCatalogs/odisha/koraput/vector/koraput_vector_thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -11718,11 +11561,11 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/vector/swb_style.qml",
+      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/swb_style.qml",
       "type": "application/xml",
       "title": "Vector Style",
       "roles": [
-        "style"
+        "metadata"
       ]
     }
   }

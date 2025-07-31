@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
-  "id": "SWB vector",
+  "id": "swb_vector",
   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
@@ -195694,147 +195694,178 @@
     "table:columns": [
       {
         "name": "id",
-        "type": "object"
+        "type": "object",
+        "description": ""
       },
       {
         "name": "MWS_UID",
-        "type": "object"
+        "type": "object",
+        "description": "microwatershed id"
       },
       {
         "name": "UID",
-        "type": "object"
+        "type": "object",
+        "description": ""
       },
       {
         "name": "any",
-        "type": "int32"
+        "type": "int32",
+        "description": ""
       },
       {
         "name": "area_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_23-24",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "area_ored",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "category_sq_m",
-        "type": "object"
+        "type": "object",
+        "description": ""
       },
       {
         "name": "k_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": "kharif water presence in 2017 2018"
       },
       {
         "name": "k_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": "kharif water presence in 2018 2019"
       },
       {
         "name": "k_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": "kharif water presence in 2019 2020"
       },
       {
         "name": "k_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "k_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "k_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "k_23-24",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "kr_23-24",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_17-18",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_18-19",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_19-20",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_20-21",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_21-22",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_22-23",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "krz_23-24",
-        "type": "float64"
+        "type": "float64",
+        "description": ""
       },
       {
         "name": "water",
-        "type": "int32"
-      },
-      {
-        "name": "geometry",
-        "type": "geometry"
+        "type": "int32",
+        "description": ""
       }
     ],
     "table:summary": {
@@ -195851,7 +195882,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//swb2_saraikela-kharsawan_gobindpur.geojson",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data//swb2_saraikela-kharsawan_gobindpur.geojson",
       "type": "application/geo+json",
       "title": "Vector Layer",
       "roles": [
@@ -195859,7 +195890,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/vector/CorestackCatalogs/jharkhand/gobindpur/vector/gobindpur_vector_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/jharkhand/gobindpur/vector/gobindpur_vector_thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -195867,11 +195898,11 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/vector/swb_style.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/swb_style.qml",
       "type": "application/xml",
       "title": "Vector Style",
       "roles": [
-        "style"
+        "metadata"
       ]
     }
   }

@@ -2,7 +2,9 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+    "https://stac-extensions.github.io/classification/v1.0.0/schema.jsonhttps://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
   ],
   "id": "lulc_raster",
   "geometry": {
@@ -41,88 +43,32 @@
   "properties": {
     "title": "Raster layer",
     "description": "Land Use Land Cover raster map",
-    "classification:classes": [
-      {
-        "value": 0,
-        "label": "clear",
-        "alpha": "0",
-        "color": "#000000"
-      },
-      {
-        "value": 1,
-        "label": "built up",
-        "alpha": "255",
-        "color": "#ff0000"
-      },
-      {
-        "value": 2,
-        "label": "kharif water",
-        "alpha": "255",
-        "color": "#74ccf4"
-      },
-      {
-        "value": 3,
-        "label": "kharif and rabi water",
-        "alpha": "255",
-        "color": "#1ca3ec"
-      },
-      {
-        "value": 4,
-        "label": "kharif and rabi and zaid water",
-        "alpha": "255",
-        "color": "#0f5e9c"
-      },
-      {
-        "value": 5,
-        "label": "croplands",
-        "alpha": "255",
-        "color": "#f1c232"
-      },
-      {
-        "value": 6,
-        "label": "Tree/Forests",
-        "alpha": "255",
-        "color": "#38761d"
-      },
-      {
-        "value": 7,
-        "label": "barren lands",
-        "alpha": "255",
-        "color": "#a9a9a9"
-      },
-      {
-        "value": 8,
-        "label": "Single Kharif Cropping",
-        "alpha": "255",
-        "color": "#bad93e"
-      },
-      {
-        "value": 9,
-        "label": "Single Non-Kharif Cropping",
-        "alpha": "255",
-        "color": "#f59d22"
-      },
-      {
-        "value": 10,
-        "label": "Double Cropping",
-        "alpha": "255",
-        "color": "#ff9371"
-      },
-      {
-        "value": 11,
-        "label": "Triple Cropping",
-        "alpha": "255",
-        "color": "#b3561d"
-      },
-      {
-        "value": 12,
-        "label": "Shrubs_Scrubs",
-        "alpha": "255",
-        "color": "#a9a9a9"
-      }
-    ],
+    "stac_version": "1.0.0",
     "start_datetime": "2023-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
+    "proj:code": "EPSG:4326",
+    "proj:wkt2": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AXIS[\"Latitude\",NORTH],AXIS[\"Longitude\",EAST],AUTHORITY[\"EPSG\",\"4326\"]]",
+    "proj:transform": [
+      0.0009298966808268435,
+      0.0,
+      82.5496948873509,
+      0.0,
+      -0.0009310202443839699,
+      19.23867945081732,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "proj:bbox": [
+      82.5496948873509,
+      18.653067717099802,
+      83.26385553822591,
+      19.23867945081732
+    ],
+    "proj:shape": [
+      629,
+      768
+    ],
     "datetime": "2023-07-01T00:00:00Z"
   },
   "links": [
@@ -141,61 +87,94 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data//Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
+      "raster:bands": [
+        {
+          "nodata": 0,
+          "data_type": "uint8",
+          "spatial_resolution": 0.0009298966808268435
+        }
+      ],
       "classification:classes": [
         {
           "value": 0,
-          "name": "clear"
+          "name": "clear",
+          "color_hint": "000000",
+          "nodata": 0
         },
         {
           "value": 1,
-          "name": "built up"
+          "name": "built up",
+          "color_hint": "ff0000",
+          "nodata": 0
         },
         {
           "value": 2,
-          "name": "kharif water"
+          "name": "kharif water",
+          "color_hint": "74ccf4",
+          "nodata": 0
         },
         {
           "value": 3,
-          "name": "kharif and rabi water"
+          "name": "kharif and rabi water",
+          "color_hint": "1ca3ec",
+          "nodata": 0
         },
         {
           "value": 4,
-          "name": "kharif and rabi and zaid water"
+          "name": "kharif and rabi and zaid water",
+          "color_hint": "0f5e9c",
+          "nodata": 0
         },
         {
           "value": 5,
-          "name": "croplands"
+          "name": "croplands",
+          "color_hint": "f1c232",
+          "nodata": 0
         },
         {
           "value": 6,
-          "name": "Tree/Forests"
+          "name": "Tree/Forests",
+          "color_hint": "38761d",
+          "nodata": 0
         },
         {
           "value": 7,
-          "name": "barren lands"
+          "name": "barren lands",
+          "color_hint": "a9a9a9",
+          "nodata": 0
         },
         {
           "value": 8,
-          "name": "Single Kharif Cropping"
+          "name": "Single Kharif Cropping",
+          "color_hint": "bad93e",
+          "nodata": 0
         },
         {
           "value": 9,
-          "name": "Single Non-Kharif Cropping"
+          "name": "Single Non-Kharif Cropping",
+          "color_hint": "f59d22",
+          "nodata": 0
         },
         {
           "value": 10,
-          "name": "Double Cropping"
+          "name": "Double Cropping",
+          "color_hint": "ff9371",
+          "nodata": 0
         },
         {
           "value": 11,
-          "name": "Triple Cropping"
+          "name": "Triple Cropping",
+          "color_hint": "b3561d",
+          "nodata": 0
         },
         {
           "value": 12,
-          "name": "Shrubs_Scrubs"
+          "name": "Shrubs_Scrubs",
+          "color_hint": "a9a9a9",
+          "nodata": 0
         }
       ],
       "roles": [
@@ -203,7 +182,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/raster/CorestackCatalogs/odisha/koraput/raster/koraput_raster_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/odisha/koraput/raster/koraput_raster_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -211,7 +190,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/raster/legend.json",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/odisha/koraput/raster/legend.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -219,7 +198,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master//CorestackCatalogs/raster/style_file.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/style_file.qml",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [

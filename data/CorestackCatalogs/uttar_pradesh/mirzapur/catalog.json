@@ -17,7 +17,7 @@
     },
     {
       "rel": "item",
-      "href": "./SWB vector/SWB vector.json",
+      "href": "./swb_vector/swb_vector.json",
       "type": "application/geo+json"
     },
     {

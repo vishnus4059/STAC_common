@@ -6129,9 +6129,16 @@
   },
   "links": [
     {
-      "rel": "self",
-      "href": "/home/vishnu/corestack_STAC/data/CorestackCatalogs/uttar_pradesh/mirzapur/vector/item.json",
-      "type": "application/json"
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for mirzapur"
     }
   ],
   "assets": {

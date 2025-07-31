@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
-  "id": "SWB vector",
+  "id": "swb_vector",
   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
@@ -195889,7 +195889,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data//swb2_saraikela-kharsawan_gobindpur.geojson",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data//swb2_saraikela-kharsawan_gobindpur.geojson",
       "type": "application/geo+json",
       "title": "Vector Layer",
       "roles": [
@@ -195897,7 +195897,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/CorestackCatalogs/jharkhand/gobindpur/vector/gobindpur_vector_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/jharkhand/gobindpur/vector/gobindpur_vector_thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -195905,7 +195905,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/vishnus4059/STAC_common/master/data/swb_style.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/swb_style.qml",
       "type": "application/xml",
       "title": "Vector Style",
       "roles": [
