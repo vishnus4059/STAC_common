@@ -54,8 +54,8 @@
       25.30230761862409
     ],
     "proj:shape": [
-      464,
-      768
+      4353,
+      7203
     ],
     "datetime": "2023-07-01T00:00:00Z"
   },
@@ -81,8 +81,8 @@
       "raster:bands": [
         {
           "nodata": 0,
-          "data_type": "uint8",
-          "spatial_resolution": 0.0008425214832699091
+          "data_type": "float64",
+          "spatial_resolution": 10.0
         }
       ],
       "classification:classes": [
