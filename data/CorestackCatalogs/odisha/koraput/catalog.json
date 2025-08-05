@@ -12,12 +12,12 @@
     },
     {
       "rel": "item",
-      "href": "./lulc_raster/lulc_raster.json",
+      "href": "./Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m/Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./swb_vector/swb_vector.json",
+      "href": "./surface_waterbodies_koraput_narayanpatana/surface_waterbodies_koraput_narayanpatana.json",
       "type": "application/geo+json"
     },
     {

@@ -1,0 +1,71 @@
+[
+  {
+    "value": 0,
+    "alpha": "0",
+    "color": "#8167e7"
+  },
+  {
+    "value": 1,
+    "alpha": "0",
+    "color": "#ff0000"
+  },
+  {
+    "value": 2,
+    "alpha": "0",
+    "color": "#1ca3ec"
+  },
+  {
+    "value": 3,
+    "alpha": "0",
+    "color": "#1ca3ec"
+  },
+  {
+    "value": 4,
+    "alpha": "0",
+    "color": "#1ca3ec"
+  },
+  {
+    "value": 5,
+    "alpha": "0",
+    "color": "#ee14d5"
+  },
+  {
+    "value": 6,
+    "alpha": "0",
+    "color": "#73bb53"
+  },
+  {
+    "value": 7,
+    "alpha": "0",
+    "color": "#8ca991"
+  },
+  {
+    "value": 12,
+    "alpha": "0",
+    "color": "#eaa4f0"
+  },
+  {
+    "value": 8,
+    "alpha": "179",
+    "label": "Single Kharif ",
+    "color": "#c6e46d"
+  },
+  {
+    "value": 9,
+    "alpha": "179",
+    "label": "Single Non-kharif",
+    "color": "#eee05d"
+  },
+  {
+    "value": 10,
+    "alpha": "179",
+    "label": "Double Cropping ",
+    "color": "#f9b249"
+  },
+  {
+    "value": 11,
+    "alpha": "179",
+    "label": "Triple Cropping",
+    "color": "#fb5139"
+  }
+]

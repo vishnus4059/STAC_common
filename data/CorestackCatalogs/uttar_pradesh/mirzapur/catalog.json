@@ -12,12 +12,12 @@
     },
     {
       "rel": "item",
-      "href": "./lulc_raster/lulc_raster.json",
+      "href": "./Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./swb_vector/swb_vector.json",
+      "href": "./surface_waterbodies_mirzapur_mirzapur/surface_waterbodies_mirzapur_mirzapur.json",
       "type": "application/geo+json"
     },
     {
