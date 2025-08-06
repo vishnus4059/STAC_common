@@ -29,6 +29,18 @@
       "title": "nrega_assets"
     },
     {
+      "rel": "child",
+      "href": "./terrain_raster/catalog.json",
+      "type": "application/json",
+      "title": "terrain_raster"
+    },
+    {
+      "rel": "child",
+      "href": "./terrain_vector/catalog.json",
+      "type": "application/json",
+      "title": "terrain_vector"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
