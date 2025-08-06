@@ -1,0 +1,448 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "jaunpur_badlapur",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+      [
+        82.43630384,
+        25.96791649
+      ],
+      [
+        82.43704986,
+        25.96761773
+      ],
+      [
+        82.4375194,
+        25.96674103
+      ],
+      [
+        82.43752946,
+        25.9667149
+      ],
+      [
+        82.43942237,
+        25.96915634
+      ],
+      [
+        82.4399472,
+        25.96909841
+      ],
+      [
+        82.43997398,
+        25.96923376
+      ],
+      [
+        82.44088879,
+        25.96774732
+      ],
+      [
+        82.44126177,
+        25.96578472
+      ],
+      [
+        82.44126462,
+        25.96578791
+      ],
+      [
+        82.44181942,
+        25.96717319
+      ],
+      [
+        82.44191299,
+        25.97059862
+      ],
+      [
+        82.44267922,
+        25.963971
+      ],
+      [
+        82.44274973,
+        25.97133309
+      ],
+      [
+        82.44304355,
+        25.96469176
+      ],
+      [
+        82.44306752,
+        25.96797141
+      ],
+      [
+        82.44362058,
+        25.96548354
+      ],
+      [
+        82.44364023,
+        25.9717644
+      ],
+      [
+        82.44365967,
+        25.96548449
+      ],
+      [
+        82.44431044,
+        25.97133058
+      ],
+      [
+        82.44455695,
+        25.97264908
+      ],
+      [
+        82.44559584,
+        25.97315726
+      ],
+      [
+        82.44569705,
+        25.96912942
+      ],
+      [
+        82.44657588,
+        25.97042036
+      ],
+      [
+        82.44692779,
+        25.97019173
+      ],
+      [
+        82.44739189,
+        25.96892812
+      ],
+      [
+        82.44754277,
+        25.96894166
+      ],
+      [
+        82.44763874,
+        25.97238356
+      ],
+      [
+        82.44767062,
+        25.96970459
+      ],
+      [
+        82.44767121,
+        25.96976559
+      ],
+      [
+        82.44772143,
+        25.97225585
+      ],
+      [
+        82.44800343,
+        25.97254918
+      ],
+      [
+        82.44885218,
+        25.96738099
+      ],
+      [
+        82.44936181,
+        25.96744599
+      ],
+      [
+        82.44977032,
+        25.96795235
+      ],
+      [
+        82.44989291,
+        25.96790881
+      ],
+      [
+        82.44995798,
+        25.96799534
+      ],
+      [
+        82.45347057,
+        25.96982059
+      ],
+      [
+        82.45436152,
+        25.97003293
+      ],
+      [
+        82.45441471,
+        25.96951579
+      ],
+      [
+        82.45484186,
+        25.97096623
+      ],
+      [
+        82.45520356,
+        25.96363379
+      ],
+      [
+        82.45528804,
+        25.96474645
+      ],
+      [
+        82.45549568,
+        25.96274344
+      ],
+      [
+        82.45553637,
+        25.96270717
+      ],
+      [
+        82.45590791,
+        25.97096087
+      ],
+      [
+        82.45618113,
+        25.97097175
+      ],
+      [
+        82.4564778,
+        25.96273249
+      ],
+      [
+        82.45719142,
+        25.96280049
+      ],
+      [
+        82.45726482,
+        25.9628967
+      ]
+    ]
+  },
+  "bbox": [
+    82.43630384,
+    25.96270717,
+    82.45726482,
+    25.97315726
+  ],
+  "properties": {
+    "title": "Vector Layer",
+    "description": "Vector data for jaunpur_badlapur in badlapur of uttar_pradesh",
+    "start_datetime": "2017-07-01T00:00:00Z",
+    "end_datetime": "2024-06-30T00:00:00Z",
+    "table:columns": [
+      {
+        "name": "id",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "State",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "District",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Block",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Asset ID",
+        "type": "int64",
+        "description": ""
+      },
+      {
+        "name": "Work Code",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "image_path",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "image_pa_1",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "observer_n",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Gram_panch",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "creation_t",
+        "type": "datetime64[ms]",
+        "description": ""
+      },
+      {
+        "name": "lat",
+        "type": "float64",
+        "description": ""
+      },
+      {
+        "name": "lon",
+        "type": "float64",
+        "description": ""
+      },
+      {
+        "name": "Panchayat_",
+        "type": "int64",
+        "description": ""
+      },
+      {
+        "name": "Panchayat",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Asset Name",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Work Name",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Work Type",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Estimated",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "Start Loca",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "End Locati",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Unskilled",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Semi-Skill",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Skilled",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Material",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Total_Expe",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Unskilled_",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Semi-ski_1",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Total_pers",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Unskille_1",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Semi-ski_2",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Total_pe_1",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "Work_start",
+        "type": "datetime64[ms, UTC]",
+        "description": ""
+      },
+      {
+        "name": "HyperLink",
+        "type": "int32",
+        "description": ""
+      },
+      {
+        "name": "WorkCatego",
+        "type": "object",
+        "description": ""
+      },
+      {
+        "name": "geometry",
+        "type": "geometry",
+        "description": ""
+      }
+    ],
+    "datetime": "2017-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "nrega_assets"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/jaunpur_badlapur.geojson",
+      "type": "application/geo+json",
+      "title": "Vector Layer",
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/badlapur/nrega_assets/badlapur_jaunpur_badlapur_thumbnail.png",
+      "type": "image/png",
+      "title": "Vector Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/swb_style.qml",
+      "type": "application/xml",
+      "title": "Vector Style",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

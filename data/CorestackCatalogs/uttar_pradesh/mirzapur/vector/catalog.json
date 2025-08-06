@@ -1,0 +1,26 @@
+{
+  "type": "Catalog",
+  "id": "vector",
+  "stac_version": "1.1.0",
+  "description": "Catalog for vector layer",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "item",
+      "href": "./surface_waterbodies_mirzapur_mirzapur/surface_waterbodies_mirzapur_mirzapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for mirzapur"
+    }
+  ],
+  "title": "vector"
+}

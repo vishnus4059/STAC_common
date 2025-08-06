@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "mirzapur",
+  "id": "badlapur",
   "stac_version": "1.1.0",
-  "description": "STAC catalog for mirzapur block data in uttar_pradesh",
+  "description": "STAC catalog for badlapur block data in uttar_pradesh",
   "links": [
     {
       "rel": "root",
@@ -12,15 +12,21 @@
     },
     {
       "rel": "child",
-      "href": "./raster/catalog.json",
+      "href": "./lulc_raster/catalog.json",
       "type": "application/json",
-      "title": "Raster"
+      "title": "LULC raster"
     },
     {
       "rel": "child",
-      "href": "./vector/catalog.json",
+      "href": "./admin_boundary/catalog.json",
       "type": "application/json",
-      "title": "vector"
+      "title": "admin_boundary"
+    },
+    {
+      "rel": "child",
+      "href": "./nrega_assets/catalog.json",
+      "type": "application/json",
+      "title": "nrega_assets"
     },
     {
       "rel": "parent",
@@ -29,5 +35,5 @@
       "title": "STAC for uttar_pradesh"
     }
   ],
-  "title": "STAC for mirzapur"
+  "title": "STAC for badlapur"
 }
