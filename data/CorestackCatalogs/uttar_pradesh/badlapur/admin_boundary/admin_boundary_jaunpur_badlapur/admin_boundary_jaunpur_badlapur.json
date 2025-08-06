@@ -8592,7 +8592,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/admin_boundary_jaunpur_badlapur.geojson",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/admin_boundary_jaunpur_badlapur.geojson",
       "type": "application/geo+json",
       "title": "Vector Layer",
       "roles": [
@@ -8600,7 +8600,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/badlapur/admin_boundary/badlapur_admin_boundary_jaunpur_badlapur_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/badlapur/admin_boundary/badlapur_admin_boundary_jaunpur_badlapur_thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -8608,7 +8608,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/Administrative-Boundary-Style.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Administrative-Boundary-Style.qml",
       "type": "application/xml",
       "title": "Vector Style",
       "roles": [

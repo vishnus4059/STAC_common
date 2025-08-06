@@ -6420,7 +6420,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/surface_waterbodies_mirzapur_mirzapur.geojson",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/surface_waterbodies_mirzapur_mirzapur.geojson",
       "type": "application/geo+json",
       "title": "Vector Layer",
       "roles": [
@@ -6428,7 +6428,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/mirzapur/vector/mirzapur_surface_waterbodies_mirzapur_mirzapur_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/mirzapur/vector/mirzapur_surface_waterbodies_mirzapur_mirzapur_thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -6436,7 +6436,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/swb_style.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/swb_style.qml",
       "type": "application/xml",
       "title": "Vector Style",
       "roles": [

@@ -75,7 +75,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
@@ -170,7 +170,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/mirzapur/raster/mirzapur_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/mirzapur/raster/mirzapur_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -178,7 +178,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/mirzapur/raster/style_file.json",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/mirzapur/raster/style_file.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -186,7 +186,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/style_file.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/style_file.qml",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [

@@ -11775,7 +11775,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/surface_waterbodies_koraput_narayanpatana.geojson",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/surface_waterbodies_koraput_narayanpatana.geojson",
       "type": "application/geo+json",
       "title": "Vector Layer",
       "roles": [
@@ -11783,7 +11783,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/odisha/koraput/vector/koraput_surface_waterbodies_koraput_narayanpatana_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/odisha/koraput/vector/koraput_surface_waterbodies_koraput_narayanpatana_thumbnail.png",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
@@ -11791,7 +11791,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/swb_style.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/swb_style.qml",
       "type": "application/xml",
       "title": "Vector Style",
       "roles": [

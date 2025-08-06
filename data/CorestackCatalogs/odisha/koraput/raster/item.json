@@ -68,7 +68,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
@@ -163,7 +163,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/odisha/koraput/raster/koraput_Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/odisha/koraput/raster/koraput_Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -171,7 +171,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/odisha/koraput/raster/style_file.json",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/odisha/koraput/raster/style_file.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -179,7 +179,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/style_file.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/style_file.qml",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [
