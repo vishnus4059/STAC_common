@@ -45,13 +45,28 @@
     "description": "Raster data for jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m in Badlapur of uttar_pradesh",
     "start_datetime": "2019-07-01T00:00:00Z",
     "end_datetime": "2020-06-30T00:00:00Z",
-    "gsd": 9.589087846259165,
+    "gsd": "gsd",
     "proj:code": "EPSG:4326",
     "proj:bbox": [
       615825.8097596983,
       2847904.150032287,
       665141.1993604847,
       2879770.1117984354
+    ],
+    "proj:shape": [
+      3150,
+      5442
+    ],
+    "proj:transform": [
+      8.983152841195215e-05,
+      0.0,
+      82.15758026583272,
+      0.0,
+      -8.983152841195215e-05,
+      26.02751754749378,
+      0.0,
+      0.0,
+      1.0
     ],
     "datetime": "2019-07-01T00:00:00Z"
   },
@@ -123,21 +138,25 @@
         {
           "value": 8,
           "name": "Single Kharif ",
+          "description": "Single Kharif ",
           "color_hint": "c6e46d"
         },
         {
           "value": 9,
           "name": "Single Non-kharif",
+          "description": "Single Non-kharif",
           "color_hint": "eee05d"
         },
         {
           "value": 10,
           "name": "Double Cropping ",
+          "description": "Double Cropping ",
           "color_hint": "f9b249"
         },
         {
           "value": 11,
           "name": "Triple Cropping",
+          "description": "Triple Cropping",
           "color_hint": "fb5139"
         }
       ],
