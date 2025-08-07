@@ -11,34 +11,54 @@
       "title": "CorestackCatalogs"
     },
     {
-      "rel": "child",
-      "href": "./lulc_raster/catalog.json",
-      "type": "application/json",
-      "title": "LULC raster"
+      "rel": "item",
+      "href": "./jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
+      "type": "application/geo+json"
     },
     {
-      "rel": "child",
-      "href": "./admin_boundary/catalog.json",
-      "type": "application/json",
-      "title": "admin_boundary"
+      "rel": "item",
+      "href": "./admin_boundary_jaunpur_badlapur/admin_boundary_jaunpur_badlapur.json",
+      "type": "application/geo+json"
     },
     {
-      "rel": "child",
-      "href": "./nrega_assets/catalog.json",
-      "type": "application/json",
-      "title": "nrega_assets"
+      "rel": "item",
+      "href": "./jaunpur_badlapur/jaunpur_badlapur.json",
+      "type": "application/geo+json"
     },
     {
-      "rel": "child",
-      "href": "./terrain_raster/catalog.json",
-      "type": "application/json",
-      "title": "terrain_raster"
+      "rel": "item",
+      "href": "./terrain_raster_jaunpur_badlapur/terrain_raster_jaunpur_badlapur.json",
+      "type": "application/geo+json"
     },
     {
-      "rel": "child",
-      "href": "./terrain_vector/catalog.json",
-      "type": "application/json",
-      "title": "terrain_vector"
+      "rel": "item",
+      "href": "./jaunpur_badlapur_terrain_clusters/jaunpur_badlapur_terrain_clusters.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./clart_jaunpur_badlapur/clart_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./swb3_jaunpur_badlapur/swb3_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./drainage_lines_jaunpur_badlapur/drainage_lines_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./change_jaunpur_badlapur_Afforestation/change_jaunpur_badlapur_Afforestation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./cropping_intensity_jaunpur_badlapur_2017-23/cropping_intensity_jaunpur_badlapur_2017-23.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "parent",

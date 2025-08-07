@@ -11,16 +11,14 @@
       "title": "CorestackCatalogs"
     },
     {
-      "rel": "child",
-      "href": "./raster/catalog.json",
-      "type": "application/json",
-      "title": "Raster"
+      "rel": "item",
+      "href": "./Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m/Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "type": "application/geo+json"
     },
     {
-      "rel": "child",
-      "href": "./vector/catalog.json",
-      "type": "application/json",
-      "title": "vector"
+      "rel": "item",
+      "href": "./surface_waterbodies_koraput_narayanpatana/surface_waterbodies_koraput_narayanpatana.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "parent",

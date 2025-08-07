@@ -11,16 +11,14 @@
       "title": "CorestackCatalogs"
     },
     {
-      "rel": "child",
-      "href": "./raster/catalog.json",
-      "type": "application/json",
-      "title": "Raster"
+      "rel": "item",
+      "href": "./saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "type": "application/geo+json"
     },
     {
-      "rel": "child",
-      "href": "./vector/catalog.json",
-      "type": "application/json",
-      "title": "vector"
+      "rel": "item",
+      "href": "./swb2_saraikela-kharsawan_gobindpur/swb2_saraikela-kharsawan_gobindpur.json",
+      "type": "application/geo+json"
     },
     {
       "rel": "parent",
