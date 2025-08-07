@@ -22,12 +22,32 @@
     },
     {
       "rel": "item",
+      "href": "./jaunpur_badlapur_terrain_clusters/jaunpur_badlapur_terrain_clusters.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./clart_jaunpur_badlapur/clart_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
+      "href": "./swb3_jaunpur_badlapur/swb3_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./drainage_lines_jaunpur_badlapur/drainage_lines_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./change_jaunpur_badlapur_Afforestation/change_jaunpur_badlapur_Afforestation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./cropping_intensity_jaunpur_badlapur_2017-23/cropping_intensity_jaunpur_badlapur_2017-23.json",
       "type": "application/geo+json"
     },
     {

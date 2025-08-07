@@ -91,7 +91,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/badlapur/badlapur_change_jaunpur_badlapur_Afforestation_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/badlapur/badlapur_change_jaunpur_badlapur_Afforestation_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
