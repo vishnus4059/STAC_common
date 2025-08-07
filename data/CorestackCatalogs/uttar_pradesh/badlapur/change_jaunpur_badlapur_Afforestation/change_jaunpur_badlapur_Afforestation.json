@@ -41,7 +41,7 @@
     2879770.1117984354
   ],
   "properties": {
-    "title": "Raster Layer",
+    "title": "Change detection raster",
     "description": "Raster data for change_jaunpur_badlapur_Afforestation in badlapur of uttar_pradesh",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",

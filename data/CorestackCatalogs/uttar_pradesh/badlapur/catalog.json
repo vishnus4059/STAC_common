@@ -17,16 +17,6 @@
     },
     {
       "rel": "item",
-      "href": "./admin_boundary_jaunpur_badlapur/admin_boundary_jaunpur_badlapur.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./jaunpur_badlapur/jaunpur_badlapur.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./terrain_raster_jaunpur_badlapur/terrain_raster_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },

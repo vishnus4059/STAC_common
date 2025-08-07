@@ -41,7 +41,7 @@
     2879800.1911677467
   ],
   "properties": {
-    "title": "Raster Layer",
+    "title": "terrain_raster",
     "description": "Raster data for terrain_raster_jaunpur_badlapur in badlapur of uttar_pradesh",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
