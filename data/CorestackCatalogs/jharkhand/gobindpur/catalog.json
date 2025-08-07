@@ -16,11 +16,6 @@
       "type": "application/geo+json"
     },
     {
-      "rel": "item",
-      "href": "./swb2_saraikela-kharsawan_gobindpur/swb2_saraikela-kharsawan_gobindpur.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

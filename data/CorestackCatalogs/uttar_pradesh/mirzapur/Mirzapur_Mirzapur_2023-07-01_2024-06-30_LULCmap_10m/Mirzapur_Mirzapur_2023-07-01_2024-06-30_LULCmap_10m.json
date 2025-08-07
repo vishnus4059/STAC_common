@@ -170,7 +170,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/mirzapur/mirzapur_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/CorestackCatalogs/uttar_pradesh/mirzapur/mirzapur_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [

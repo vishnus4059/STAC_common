@@ -16,11 +16,6 @@
       "type": "application/geo+json"
     },
     {
-      "rel": "item",
-      "href": "./surface_waterbodies_koraput_narayanpatana/surface_waterbodies_koraput_narayanpatana.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
