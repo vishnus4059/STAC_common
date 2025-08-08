@@ -49022,7 +49022,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/badlapur/badlapur_cropping_intensity_jaunpur_badlapur_2017-23_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [

@@ -11790,7 +11790,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/odisha/koraput/koraput_surface_waterbodies_koraput_narayanpatana_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [

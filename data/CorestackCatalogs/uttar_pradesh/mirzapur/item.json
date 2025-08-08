@@ -6421,7 +6421,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/CorestackCatalogs/uttar_pradesh/mirzapur/mirzapur_surface_waterbodies_mirzapur_mirzapur_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
