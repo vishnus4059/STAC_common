@@ -6,15 +6,21 @@
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for jharkhand"
+      "title": "CorestackCatalogs"
     },
     {
       "rel": "child",
       "href": "./gobindpur/catalog.json",
       "type": "application/json",
       "title": "STAC for gobindpur"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
     }
   ],
   "title": "STAC for jharkhand"

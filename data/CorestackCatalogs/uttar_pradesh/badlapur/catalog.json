@@ -6,9 +6,9 @@
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../../catalog.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "CorestackCatalogs"
     },
     {
       "rel": "item",
