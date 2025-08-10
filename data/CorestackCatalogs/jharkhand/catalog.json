@@ -6,21 +6,20 @@
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/catalog.json",
       "type": "application/json",
-      "title": "CorestackCatalogs"
+      "title": "STAC for jharkhand"
+    },
+    {
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/catalog.json",
+      "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./gobindpur/catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/gobindpur/catalog.json",
       "type": "application/json",
       "title": "STAC for gobindpur"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "CorestackCatalogs"
     }
   ],
   "title": "STAC for jharkhand"

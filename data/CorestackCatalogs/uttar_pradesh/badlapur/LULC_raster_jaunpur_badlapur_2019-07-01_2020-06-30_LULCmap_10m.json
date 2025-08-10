@@ -6,83 +6,76 @@
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
     "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
   ],
-  "id": "Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m",
+  "id": "LULC_raster_jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          83.46786293924946,
-          18.70076825868655
+          82.64644344345056,
+          25.74454823299613
         ],
         [
-          83.46786293924946,
-          19.141661400132413
+          82.64644344345056,
+          26.02751754749378
         ],
         [
-          82.94612142223284,
-          19.141661400132413
+          82.15758026583272,
+          26.02751754749378
         ],
         [
-          82.94612142223284,
-          18.70076825868655
+          82.15758026583272,
+          25.74454823299613
         ],
         [
-          83.46786293924946,
-          18.70076825868655
+          82.64644344345056,
+          25.74454823299613
         ]
       ]
     ]
   },
   "bbox": [
-    704686.2184183269,
-    2068836.4470280344,
-    760267.437619892,
-    2118336.0359880542
+    615825.8097596983,
+    2847904.150032287,
+    665141.1993604847,
+    2879770.1117984354
   ],
   "properties": {
-    "title": "Raster",
-    "description": "Raster data for Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m in koraput of odisha",
-    "start_datetime": "2023-07-01T00:00:00Z",
-    "end_datetime": "2024-06-30T00:00:00Z",
-    "gsd": 9.827629984712452,
+    "title": "LULC_raster",
+    "description": "Raster data for jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m in badlapur of uttar_pradesh",
+    "start_datetime": "2019-07-01T00:00:00Z",
+    "end_datetime": "2020-06-30T00:00:00Z",
+    "gsd": 9.589087846259165,
     "proj:code": "EPSG:4326",
     "proj:bbox": [
-      704686.2184183269,
-      2068836.4470280344,
-      760267.437619892,
-      2118336.0359880542
+      615825.8097596983,
+      2847904.150032287,
+      665141.1993604847,
+      2879770.1117984354
     ],
     "proj:shape": [
-      4908,
-      5808
+      3150,
+      5442
     ],
-    "datetime": "2023-07-01T00:00:00Z"
+    "datetime": "2019-07-01T00:00:00Z"
   },
   "links": [
     {
-      "rel": "root",
-      "href": "../../../catalog.json",
-      "type": "application/json",
-      "title": "CorestackCatalogs"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for koraput"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/LULC_raster_jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
+      "type": "application/json"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
         {
           "nodata": 0,
           "data_type": "float64",
-          "spatial_resolution": 9.827629984712452
+          "spatial_resolution": 9.589087846259165
         }
       ],
       "classification:classes": [
@@ -170,7 +163,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/koraput_Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -178,7 +171,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/style_file.json",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/LULC0_12class.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -186,7 +179,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/style_file.qml",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/LULC0_12class.qml",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [

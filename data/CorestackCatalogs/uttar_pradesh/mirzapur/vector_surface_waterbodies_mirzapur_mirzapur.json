@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
-  "id": "surface_waterbodies_mirzapur_mirzapur",
+  "id": "vector_surface_waterbodies_mirzapur_mirzapur",
   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
@@ -6406,16 +6406,9 @@
   },
   "links": [
     {
-      "rel": "root",
-      "href": "../../../catalog.json",
-      "type": "application/json",
-      "title": "CorestackCatalogs"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for mirzapur"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/vector_surface_waterbodies_mirzapur_mirzapur.json",
+      "type": "application/json"
     }
   ],
   "assets": {
@@ -6428,7 +6421,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output",
+      "href": "../../../STAC_output",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [

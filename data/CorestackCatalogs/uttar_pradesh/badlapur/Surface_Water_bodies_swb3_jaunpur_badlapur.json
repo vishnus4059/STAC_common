@@ -4,7 +4,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
-  "id": "swb3_jaunpur_badlapur",
+  "id": "Surface_Water_bodies_swb3_jaunpur_badlapur",
   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
@@ -108397,7 +108397,7 @@
     26.022667182250057
   ],
   "properties": {
-    "title": "Surface Water bodies",
+    "title": "Surface_Water_bodies",
     "description": "Vector data for swb3_jaunpur_badlapur in badlapur of uttar_pradesh",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
@@ -108832,16 +108832,9 @@
   },
   "links": [
     {
-      "rel": "root",
-      "href": "../../../catalog.json",
-      "type": "application/json",
-      "title": "CorestackCatalogs"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for badlapur"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/Surface_Water_bodies_swb3_jaunpur_badlapur.json",
+      "type": "application/json"
     }
   ],
   "assets": {
@@ -108854,7 +108847,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output",
+      "href": "../../../STAC_output",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [

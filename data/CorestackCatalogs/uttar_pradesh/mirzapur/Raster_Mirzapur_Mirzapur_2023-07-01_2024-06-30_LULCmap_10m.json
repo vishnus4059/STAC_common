@@ -6,83 +6,76 @@
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
     "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
   ],
-  "id": "saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m",
+  "id": "Raster_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          86.20458045231958,
-          22.432459780447456
+          82.85368477949694,
+          24.911270975446865
         ],
         [
-          86.20458045231958,
-          22.762860141946614
+          82.85368477949694,
+          25.30230761862409
         ],
         [
-          85.8297134842565,
-          22.762860141946614
+          82.20662828034565,
+          25.30230761862409
         ],
         [
-          85.8297134842565,
-          22.432459780447456
+          82.20662828034565,
+          24.911270975446865
         ],
         [
-          86.20458045231958,
-          22.432459780447456
+          82.85368477949694,
+          24.911270975446865
         ]
       ]
     ]
   },
   "bbox": [
-    996231.3194653222,
-    2488708.5791865853,
-    1036103.21563798,
-    2526685.0685984967
+    621466.6329319894,
+    2755663.479543928,
+    687210.1225313091,
+    2799713.028715519
   ],
   "properties": {
     "title": "Raster",
-    "description": "Raster data for saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m in gobindpur of jharkhand",
+    "description": "Raster data for Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m in mirzapur of uttar_pradesh",
     "start_datetime": "2023-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
-    "gsd": 9.940020840066722,
+    "gsd": 9.623295742250088,
     "proj:code": "EPSG:4326",
     "proj:bbox": [
-      996231.3194653222,
-      2488708.5791865853,
-      1036103.21563798,
-      2526685.0685984967
+      621466.6329319894,
+      2755663.479543928,
+      687210.1225313091,
+      2799713.028715519
     ],
     "proj:shape": [
-      3678,
-      4173
+      4353,
+      7203
     ],
     "datetime": "2023-07-01T00:00:00Z"
   },
   "links": [
     {
-      "rel": "root",
-      "href": "../../../catalog.json",
-      "type": "application/json",
-      "title": "CorestackCatalogs"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for gobindpur"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/Raster_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "type": "application/json"
     }
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
         {
           "nodata": 0,
           "data_type": "float64",
-          "spatial_resolution": 9.940020840066722
+          "spatial_resolution": 9.623295742250088
         }
       ],
       "classification:classes": [
@@ -170,7 +163,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/gobindpur_saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/mirzapur_Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [

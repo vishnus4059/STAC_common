@@ -6,7 +6,7 @@
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
     "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
   ],
-  "id": "clart_jaunpur_badlapur",
+  "id": "CLART_clart_jaunpur_badlapur",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
@@ -61,16 +61,9 @@
   },
   "links": [
     {
-      "rel": "root",
-      "href": "../../../catalog.json",
-      "type": "application/json",
-      "title": "CorestackCatalogs"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for badlapur"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/CLART_clart_jaunpur_badlapur.json",
+      "type": "application/json"
     }
   ],
   "assets": {

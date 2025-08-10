@@ -6,25 +6,24 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/gobindpur/catalog.json",
       "type": "application/json",
-      "title": "CorestackCatalogs"
+      "title": "STAC for gobindpur"
     },
     {
       "rel": "item",
-      "href": "./saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/gobindpur/Raster_saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./swb2_saraikela-kharsawan_gobindpur/swb2_saraikela-kharsawan_gobindpur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/gobindpur/vector_swb2_saraikela-kharsawan_gobindpur.json",
       "type": "application/geo+json"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for jharkhand"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/gobindpur/catalog.json",
+      "type": "application/json"
     }
   ],
   "title": "STAC for gobindpur"
