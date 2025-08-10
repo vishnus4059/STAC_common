@@ -6,24 +6,25 @@
   "links": [
     {
       "rel": "root",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/catalog.json",
+      "href": "../../catalog.json",
       "type": "application/json",
-      "title": "STAC for koraput"
+      "title": "CorestackCatalogs"
     },
     {
       "rel": "item",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/Raster_Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "href": "./Raster_Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m/Raster_Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/vector_surface_waterbodies_koraput_narayanpatana.json",
+      "href": "./vector_surface_waterbodies_koraput_narayanpatana/vector_surface_waterbodies_koraput_narayanpatana.json",
       "type": "application/geo+json"
     },
     {
-      "rel": "self",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/catalog.json",
-      "type": "application/json"
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for odisha"
     }
   ],
   "title": "STAC for koraput"
