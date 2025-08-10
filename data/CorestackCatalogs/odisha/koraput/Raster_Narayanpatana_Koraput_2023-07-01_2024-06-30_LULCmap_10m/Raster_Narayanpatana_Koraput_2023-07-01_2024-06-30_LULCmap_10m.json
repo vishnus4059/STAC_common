@@ -62,9 +62,9 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../../catalog.json",
+      "href": "../../catalog.json",
       "type": "application/json",
-      "title": "CorestackCatalogs"
+      "title": "STAC for odisha"
     },
     {
       "rel": "parent",
