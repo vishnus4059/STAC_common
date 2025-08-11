@@ -1,0 +1,38 @@
+[
+  {
+    "alpha": "0",
+    "label": "Background",
+    "value": 0,
+    "color": "#f7fcf5"
+  },
+  {
+    "alpha": "255",
+    "label": "Forest - Forest",
+    "value": 1,
+    "color": "#73bb53"
+  },
+  {
+    "alpha": "255",
+    "label": "Built Up - Forest",
+    "value": 2,
+    "color": "#ff0000"
+  },
+  {
+    "alpha": "255",
+    "label": "Farm - Forest",
+    "value": 3,
+    "color": "#eee05d"
+  },
+  {
+    "alpha": "255",
+    "label": "Barren - Forest",
+    "value": 4,
+    "color": "#a9a9a9"
+  },
+  {
+    "alpha": "255",
+    "label": "Scrub Land - Forest",
+    "value": 5,
+    "color": "#eaa4f0"
+  }
+]

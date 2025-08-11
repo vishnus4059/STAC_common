@@ -1,0 +1,73 @@
+[
+  {
+    "value": 1,
+    "label": "V-shape river valleys, Deep narrow canyons",
+    "color": "#313695",
+    "alpha": "255"
+  },
+  {
+    "value": 2,
+    "label": "Lateral midslope incised drainages, Local valleys in plains",
+    "color": "#4575b4",
+    "alpha": "255"
+  },
+  {
+    "value": 3,
+    "label": "Upland incised drainages, Stream headwaters",
+    "color": "#a50026",
+    "alpha": "255"
+  },
+  {
+    "value": 4,
+    "label": "U-shape valleys",
+    "color": "#e0f3f8",
+    "alpha": "255"
+  },
+  {
+    "value": 5,
+    "label": "Broad Flat Areas",
+    "color": "#fffc00",
+    "alpha": "255"
+  },
+  {
+    "value": 6,
+    "label": "Broad open slopes",
+    "color": "#feb24c",
+    "alpha": "255"
+  },
+  {
+    "value": 7,
+    "label": "Mesa tops",
+    "color": "#f46d43",
+    "alpha": "255"
+  },
+  {
+    "value": 8,
+    "label": "Upper Slopes",
+    "color": "#d73027",
+    "alpha": "255"
+  },
+  {
+    "value": 9,
+    "label": "Local ridge/hilltops within broad valleys",
+    "color": "#91bfdb",
+    "alpha": "255"
+  },
+  {
+    "value": 10,
+    "label": "Lateral midslope drainage divides, Local ridges in plains",
+    "color": "#800000",
+    "alpha": "255"
+  },
+  {
+    "value": 11,
+    "label": "Mountain tops, high ridges",
+    "color": "#4d0000",
+    "alpha": "255"
+  },
+  {
+    "value": 12,
+    "color": "#ffffff",
+    "alpha": "255"
+  }
+]
