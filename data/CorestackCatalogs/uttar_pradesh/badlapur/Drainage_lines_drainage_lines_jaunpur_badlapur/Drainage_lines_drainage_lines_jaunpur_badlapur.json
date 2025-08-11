@@ -175202,7 +175202,7 @@
       ]
     },
     "thumbnail": {
-      "href": "../../../../STAC_output",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output",
       "type": "image/png",
       "title": "Vector Thumbnail",
       "roles": [
