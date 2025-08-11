@@ -85,7 +85,38 @@
           "spatial_resolution": 9.58904184992306
         }
       ],
-      "classification:classes": [],
+      "classification:classes": [
+        {
+          "value": 1,
+          "name": "Good recharge",
+          "description": "Good recharge",
+          "color_hint": "4ee323"
+        },
+        {
+          "value": 2,
+          "name": "Moderate recharge",
+          "description": "Moderate recharge",
+          "color_hint": "f3ff33"
+        },
+        {
+          "value": 3,
+          "name": "Surface water harvesting",
+          "description": "Surface water harvesting",
+          "color_hint": "f21223"
+        },
+        {
+          "value": 4,
+          "name": "Regeneration",
+          "description": "Regeneration",
+          "color_hint": "b40f7d"
+        },
+        {
+          "value": 5,
+          "name": "High runoff zone",
+          "description": "High runoff zone",
+          "color_hint": "1774de"
+        }
+      ],
       "roles": [
         "data"
       ]

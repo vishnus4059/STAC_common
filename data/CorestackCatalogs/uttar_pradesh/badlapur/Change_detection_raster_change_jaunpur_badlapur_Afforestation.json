@@ -78,7 +78,44 @@
           "spatial_resolution": 9.589087846259165
         }
       ],
-      "classification:classes": [],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "Background",
+          "description": "Background",
+          "color_hint": "f7fcf5"
+        },
+        {
+          "value": 1,
+          "name": "Forest - Forest",
+          "description": "Forest - Forest",
+          "color_hint": "73bb53"
+        },
+        {
+          "value": 2,
+          "name": "Built Up - Forest",
+          "description": "Built Up - Forest",
+          "color_hint": "ff0000"
+        },
+        {
+          "value": 3,
+          "name": "Farm - Forest",
+          "description": "Farm - Forest",
+          "color_hint": "eee05d"
+        },
+        {
+          "value": 4,
+          "name": "Barren - Forest",
+          "description": "Barren - Forest",
+          "color_hint": "a9a9a9"
+        },
+        {
+          "value": 5,
+          "name": "Scrub Land - Forest",
+          "description": "Scrub Land - Forest",
+          "color_hint": "eaa4f0"
+        }
+      ],
       "roles": [
         "data"
       ]
