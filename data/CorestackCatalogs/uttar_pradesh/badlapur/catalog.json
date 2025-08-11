@@ -52,12 +52,22 @@
     },
     {
       "rel": "item",
-      "href": "./Change_detection_raster_change_jaunpur_badlapur_Afforestation/Change_detection_raster_change_jaunpur_badlapur_Afforestation.json",
+      "href": "./Change_detection_raster_Afforestation_change_jaunpur_badlapur_Afforestation/Change_detection_raster_Afforestation_change_jaunpur_badlapur_Afforestation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./Cropping_intensity_cropping_intensity_jaunpur_badlapur_2017-23/Cropping_intensity_cropping_intensity_jaunpur_badlapur_2017-23.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./Tree_health_ccd_raster_2022_tree_health_ccd_raster_jaunpur_badlapur_2022/Tree_health_ccd_raster_2022_tree_health_ccd_raster_jaunpur_badlapur_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./Prec_annual_Prec_annual_jaunpur_badlapur/Prec_annual_Prec_annual_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {

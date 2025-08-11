@@ -1,0 +1,155 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "Change_detection_raster_Afforestation_change_jaunpur_badlapur_Afforestation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          82.64644344345056,
+          25.74454823299613
+        ],
+        [
+          82.64644344345056,
+          26.02751754749378
+        ],
+        [
+          82.15758026583272,
+          26.02751754749378
+        ],
+        [
+          82.15758026583272,
+          25.74454823299613
+        ],
+        [
+          82.64644344345056,
+          25.74454823299613
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    615825.8097596983,
+    2847904.150032287,
+    665141.1993604847,
+    2879770.1117984354
+  ],
+  "properties": {
+    "title": "Change_detection_raster_Afforestation",
+    "description": "Raster data for change_jaunpur_badlapur_Afforestation in badlapur of uttar_pradesh",
+    "start_datetime": "2017-07-01T00:00:00Z",
+    "end_datetime": "2024-06-30T00:00:00Z",
+    "gsd": 9.589087846259165,
+    "proj:code": "EPSG:4326",
+    "proj:bbox": [
+      615825.8097596983,
+      2847904.150032287,
+      665141.1993604847,
+      2879770.1117984354
+    ],
+    "proj:shape": [
+      3150,
+      5442
+    ],
+    "datetime": "2017-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for badlapur"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/change_jaunpur_badlapur_Afforestation.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Raster Layer",
+      "raster:bands": [
+        {
+          "nodata": 0,
+          "data_type": "uint8",
+          "spatial_resolution": 9.589087846259165
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "Background",
+          "description": "Background",
+          "color_hint": "f7fcf5"
+        },
+        {
+          "value": 1,
+          "name": "Forest - Forest",
+          "description": "Forest - Forest",
+          "color_hint": "73bb53"
+        },
+        {
+          "value": 2,
+          "name": "Built Up - Forest",
+          "description": "Built Up - Forest",
+          "color_hint": "ff0000"
+        },
+        {
+          "value": 3,
+          "name": "Farm - Forest",
+          "description": "Farm - Forest",
+          "color_hint": "eee05d"
+        },
+        {
+          "value": 4,
+          "name": "Barren - Forest",
+          "description": "Barren - Forest",
+          "color_hint": "a9a9a9"
+        },
+        {
+          "value": 5,
+          "name": "Scrub Land - Forest",
+          "description": "Scrub Land - Forest",
+          "color_hint": "eaa4f0"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_change_jaunpur_badlapur_Afforestation_thumbnail.png",
+      "type": "image/png",
+      "title": "Raster Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/Afforestation_climate_change.json",
+      "type": "application/json",
+      "title": "Legend JSON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Afforestation_climate_change.qml",
+      "type": "application/xml",
+      "title": "Raster Style (QML)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
