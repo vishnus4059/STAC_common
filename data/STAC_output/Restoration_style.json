@@ -1,0 +1,26 @@
+[
+  {
+    "color": "#ffa500",
+    "value": 0,
+    "alpha": "255",
+    "label": "Protection"
+  },
+  {
+    "color": "#007500",
+    "value": 1,
+    "alpha": "255",
+    "label": "Wide-scale Restoration"
+  },
+  {
+    "color": "#000000",
+    "value": 2,
+    "alpha": "255",
+    "label": "Mosaic Restoration"
+  },
+  {
+    "color": "#ffff00",
+    "value": 3,
+    "alpha": "255",
+    "label": "Excluded Areas"
+  }
+]
