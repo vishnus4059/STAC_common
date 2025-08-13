@@ -1,0 +1,32 @@
+[
+  {
+    "alpha": "0",
+    "label": "Background",
+    "value": 0,
+    "color": "#f7fcf5"
+  },
+  {
+    "alpha": "255",
+    "label": "Farm - Farm",
+    "value": 1,
+    "color": "#eee05d"
+  },
+  {
+    "alpha": "255",
+    "label": "Farm - Built Up",
+    "value": 2,
+    "color": "#ff0000"
+  },
+  {
+    "alpha": "255",
+    "label": "Farm - Barren",
+    "value": 3,
+    "color": "#a9a9a9"
+  },
+  {
+    "alpha": "255",
+    "label": "Farm - Scrub Land",
+    "value": 4,
+    "color": "#eaa4f0"
+  }
+]
