@@ -41,7 +41,7 @@
     2526685.0685984967
   ],
   "properties": {
-    "title": "Raster Layer",
+    "title": "Raster",
     "description": "Raster data for saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m in gobindpur of jharkhand",
     "start_datetime": "2023-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
@@ -68,7 +68,7 @@
   ],
   "assets": {
     "data": {
-      "href": "../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
@@ -163,7 +163,7 @@
       ]
     },
     "thumbnail": {
-      "href": "../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/gobindpur_saraikela-kharsawan_gobindpur_2023-07-01_2024-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -171,7 +171,7 @@
       ]
     },
     "legend": {
-      "href": "../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/style_file.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -179,7 +179,7 @@
       ]
     },
     "style": {
-      "href": "../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/style_file.qml",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [

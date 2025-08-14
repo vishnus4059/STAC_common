@@ -41,7 +41,7 @@
     2879800.077763528
   ],
   "properties": {
-    "title": "Raster Layer",
+    "title": "tree_health_ch_raster_2021",
     "description": "Raster data for tree_health_ch_raster_jaunpur_badlapur_2021 in badlapur of uttar_pradesh",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
@@ -68,7 +68,7 @@
   ],
   "assets": {
     "data": {
-      "href": "../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/tree_health_ch_raster_jaunpur_badlapur_2021.tif",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
@@ -133,7 +133,7 @@
       ]
     },
     "thumbnail": {
-      "href": "../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_tree_health_ch_raster_jaunpur_badlapur_2021_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -141,7 +141,7 @@
       ]
     },
     "legend": {
-      "href": "../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/Tree_health_style_oac.json",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -149,7 +149,7 @@
       ]
     },
     "style": {
-      "href": "../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Tree_health_style_oac.qml",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [
