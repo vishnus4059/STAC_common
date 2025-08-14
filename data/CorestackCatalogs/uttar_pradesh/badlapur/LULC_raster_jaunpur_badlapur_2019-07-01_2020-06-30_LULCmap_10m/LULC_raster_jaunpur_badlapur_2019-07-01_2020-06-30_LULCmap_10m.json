@@ -41,7 +41,7 @@
     2879770.1117984354
   ],
   "properties": {
-    "title": "LULC_raster",
+    "title": "Raster Layer",
     "description": "Raster data for jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m in badlapur of uttar_pradesh",
     "start_datetime": "2019-07-01T00:00:00Z",
     "end_datetime": "2020-06-30T00:00:00Z",
@@ -75,7 +75,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.tif",
+      "href": "../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
       "type": "image/tiff; application=geotiff",
       "title": "Raster Layer",
       "raster:bands": [
@@ -170,7 +170,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m_thumbnail.png",
+      "href": "../../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
@@ -178,7 +178,7 @@
       ]
     },
     "legend": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/LULC0_12class.json",
+      "href": "../../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
       "type": "application/json",
       "title": "Legend JSON",
       "roles": [
@@ -186,7 +186,7 @@
       ]
     },
     "style": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/LULC0_12class.qml",
+      "href": "../../https:/raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data",
       "type": "application/xml",
       "title": "Raster Style (QML)",
       "roles": [
