@@ -2,7 +2,6 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
     "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
   ],
@@ -46,17 +45,7 @@
     "start_datetime": "2023-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
     "gsd": 9.623295742250088,
-    "proj:code": "EPSG:4326",
-    "proj:bbox": [
-      621466.6329319894,
-      2755663.479543928,
-      687210.1225313091,
-      2799713.028715519
-    ],
-    "proj:shape": [
-      4353,
-      7203
-    ],
+    "gee:asset_id": null,
     "datetime": "2023-07-01T00:00:00Z"
   },
   "links": [
@@ -80,8 +69,6 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
-          "nodata": 0,
-          "data_type": "float64",
           "spatial_resolution": 9.623295742250088
         }
       ],
