@@ -16,11 +16,6 @@
       "type": "application/geo+json"
     },
     {
-      "rel": "item",
-      "href": "./vector_surface_waterbodies_mirzapur_mirzapur/vector_surface_waterbodies_mirzapur_mirzapur.json",
-      "type": "application/geo+json"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

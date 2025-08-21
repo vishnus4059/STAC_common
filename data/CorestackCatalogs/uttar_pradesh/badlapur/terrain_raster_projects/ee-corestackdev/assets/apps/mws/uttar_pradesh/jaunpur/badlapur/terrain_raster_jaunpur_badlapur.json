@@ -1,0 +1,171 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "terrain_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur",
+  "geometry": {
+    "geodesic": false,
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          82.15741458364789,
+          25.744412978692516
+        ],
+        [
+          82.64660916837978,
+          25.744412978692516
+        ],
+        [
+          82.64660916837978,
+          26.027704118031313
+        ],
+        [
+          82.15741458364789,
+          26.027704118031313
+        ],
+        [
+          82.15741458364789,
+          25.744412978692516
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    82.15741458364789,
+    25.744412978692516,
+    82.64660916837978,
+    26.027704118031313
+  ],
+  "properties": {
+    "title": "terrain_raster",
+    "description": "Raster data for projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur in badlapur of uttar_pradesh",
+    "start_datetime": "2017-07-01T00:00:00Z",
+    "end_datetime": "2024-06-30T00:00:00Z",
+    "gsd": 30.000000000000004,
+    "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur",
+    "datetime": "2017-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/terrain_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://earthengine.googleapis.com/v1alpha/projects/ee-corestackdev/assets/projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur:getPixels",
+      "type": "image/tiff; application=geotiff",
+      "title": "Raster Layer",
+      "raster:bands": [
+        {
+          "spatial_resolution": 30.000000000000004
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 1,
+          "name": "V-shape river valleys, Deep narrow canyons",
+          "description": "V-shape river valleys, Deep narrow canyons",
+          "color_hint": "313695"
+        },
+        {
+          "value": 2,
+          "name": "Lateral midslope incised drainages, Local valleys in plains",
+          "description": "Lateral midslope incised drainages, Local valleys in plains",
+          "color_hint": "4575b4"
+        },
+        {
+          "value": 3,
+          "name": "Upland incised drainages, Stream headwaters",
+          "description": "Upland incised drainages, Stream headwaters",
+          "color_hint": "a50026"
+        },
+        {
+          "value": 4,
+          "name": "U-shape valleys",
+          "description": "U-shape valleys",
+          "color_hint": "e0f3f8"
+        },
+        {
+          "value": 5,
+          "name": "Broad Flat Areas",
+          "description": "Broad Flat Areas",
+          "color_hint": "fffc00"
+        },
+        {
+          "value": 6,
+          "name": "Broad open slopes",
+          "description": "Broad open slopes",
+          "color_hint": "feb24c"
+        },
+        {
+          "value": 7,
+          "name": "Mesa tops",
+          "description": "Mesa tops",
+          "color_hint": "f46d43"
+        },
+        {
+          "value": 8,
+          "name": "Upper Slopes",
+          "description": "Upper Slopes",
+          "color_hint": "d73027"
+        },
+        {
+          "value": 9,
+          "name": "Local ridge/hilltops within broad valleys",
+          "description": "Local ridge/hilltops within broad valleys",
+          "color_hint": "91bfdb"
+        },
+        {
+          "value": 10,
+          "name": "Lateral midslope drainage divides, Local ridges in plains",
+          "description": "Lateral midslope drainage divides, Local ridges in plains",
+          "color_hint": "800000"
+        },
+        {
+          "value": 11,
+          "name": "Mountain tops, high ridges",
+          "description": "Mountain tops, high ridges",
+          "color_hint": "4d0000"
+        },
+        {
+          "value": 12,
+          "name": "Class 12",
+          "color_hint": "ffffff"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_terrain_raster_jaunpur_badlapur_thumbnail.png",
+      "type": "image/png",
+      "title": "Raster Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/terrain_1-12class.json",
+      "type": "application/json",
+      "title": "Legend JSON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/terrain_1-12class.qml",
+      "type": "application/xml",
+      "title": "Raster Style (QML)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

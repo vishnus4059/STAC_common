@@ -60,7 +60,7 @@
     "data": {
       "href": "https://earthengine.googleapis.com/v1alpha/projects/ee-corestackdev/assets/projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/jaunpur_badlapur_2017-07-01_2018-06-30_LULCmap_10m:getPixels",
       "type": "image/tiff; application=geotiff",
-      "title": "GEE Raster Layer",
+      "title": "Raster Layer",
       "raster:bands": [
         {
           "spatial_resolution": 10
@@ -151,7 +151,7 @@
       ]
     },
     "thumbnail": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/jaunpur_badlapur_2017-07-01_2018-06-30_LULCmap_10m_thumbnail.png",
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_jaunpur_badlapur_2017-07-01_2018-06-30_LULCmap_10m_thumbnail.png",
       "type": "image/png",
       "title": "Raster Thumbnail",
       "roles": [
