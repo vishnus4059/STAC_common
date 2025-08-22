@@ -62,11 +62,6 @@
     },
     {
       "rel": "item",
-      "href": "./Tree_health_ccd_raster_2022_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_ccd_raster_jaunpur_badlapur_2022/Tree_health_ccd_raster_2022_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_ccd_raster_jaunpur_badlapur_2022.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./Prec_annual_Prec_annual_jaunpur_badlapur/Prec_annual_Prec_annual_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },

@@ -36,7 +36,7 @@
   },
   "bbox": [
     82.15741458364789,
-    25.744412978692516,
+    25.744412978692512,
     82.64660916837978,
     26.027704118031313
   ],
@@ -47,7 +47,7 @@
     "end_datetime": "2024-06-30T00:00:00Z",
     "gsd": 30.000000000000004,
     "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/clart_jaunpur_badlapur",
-    "datetime": "2025-08-22T04:07:58.094345Z"
+    "datetime": "2025-08-22T05:32:50.109188Z"
   },
   "links": [
     {
