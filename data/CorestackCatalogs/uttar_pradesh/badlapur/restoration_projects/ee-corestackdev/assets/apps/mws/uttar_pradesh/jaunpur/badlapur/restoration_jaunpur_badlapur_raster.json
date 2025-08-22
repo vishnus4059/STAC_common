@@ -47,7 +47,7 @@
     "end_datetime": "2024-06-30T00:00:00Z",
     "gsd": 60.00000000000001,
     "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/restoration_jaunpur_badlapur_raster",
-    "datetime": "2017-07-01T00:00:00Z"
+    "datetime": "2025-08-22T03:21:48.679921Z"
   },
   "links": [
     {
@@ -63,6 +63,7 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
+          "data_type": "int",
           "spatial_resolution": 60.00000000000001
         }
       ],

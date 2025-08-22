@@ -175119,64 +175119,35 @@
     ]
   },
   "bbox": [
-    82.16389097101069,
-    25.74333125186533,
-    82.64416736817418,
-    26.028334695696326
+    [
+      82.16389097101069,
+      25.743331251865307
+    ],
+    [
+      82.64416736817418,
+      25.743331251865307
+    ],
+    [
+      82.64416736817418,
+      26.028334695696355
+    ],
+    [
+      82.16389097101069,
+      26.028334695696355
+    ],
+    [
+      82.16389097101069,
+      25.743331251865307
+    ]
   ],
   "properties": {
     "title": "Drainage_lines",
-    "description": "Vector data for drainage_lines_jaunpur_badlapur in badlapur of uttar_pradesh",
+    "description": "Vector data for projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/drainage_lines_jaunpur_badlapur in badlapur of uttar_pradesh",
     "start_datetime": "2017-07-01T00:00:00Z",
     "end_datetime": "2024-06-30T00:00:00Z",
-    "table:columns": [
-      {
-        "name": "ORDER",
-        "type": "int32",
-        "description": ""
-      },
-      {
-        "name": "cat",
-        "type": "int32",
-        "description": ""
-      },
-      {
-        "name": "end_node",
-        "type": "object",
-        "description": ""
-      },
-      {
-        "name": "id",
-        "type": "int32",
-        "description": ""
-      },
-      {
-        "name": "network",
-        "type": "int32",
-        "description": ""
-      },
-      {
-        "name": "start_node",
-        "type": "object",
-        "description": ""
-      },
-      {
-        "name": "stream_typ",
-        "type": "object",
-        "description": ""
-      },
-      {
-        "name": "type_code",
-        "type": "int32",
-        "description": ""
-      },
-      {
-        "name": "geometry",
-        "type": "geometry",
-        "description": ""
-      }
-    ],
-    "datetime": "2017-07-01T00:00:00Z"
+    "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/drainage_lines_jaunpur_badlapur",
+    "table:columns": [],
+    "datetime": "2025-08-22T03:21:26.353109Z"
   },
   "links": [
     {
@@ -175194,7 +175165,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/drainage_lines_jaunpur_badlapur.geojson",
+      "href": "https://earthengine.googleapis.com/v1alpha/projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/drainage_lines_jaunpur_badlapur",
       "type": "application/geo+json",
       "title": "Vector Layer",
       "roles": [
