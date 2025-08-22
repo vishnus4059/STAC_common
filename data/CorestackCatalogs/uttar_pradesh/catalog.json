@@ -12,12 +12,6 @@
     },
     {
       "rel": "child",
-      "href": "./mirzapur/catalog.json",
-      "type": "application/json",
-      "title": "STAC for mirzapur"
-    },
-    {
-      "rel": "child",
       "href": "./badlapur/catalog.json",
       "type": "application/json",
       "title": "STAC for badlapur"

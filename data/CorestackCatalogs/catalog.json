@@ -12,21 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "./jharkhand/catalog.json",
-      "type": "application/json",
-      "title": "STAC for jharkhand"
-    },
-    {
-      "rel": "child",
       "href": "./uttar_pradesh/catalog.json",
       "type": "application/json",
       "title": "STAC for uttar_pradesh"
-    },
-    {
-      "rel": "child",
-      "href": "./odisha/catalog.json",
-      "type": "application/json",
-      "title": "STAC for odisha"
     }
   ],
   "title": "CorestackCatalogs"
