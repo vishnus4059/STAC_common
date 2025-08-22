@@ -13,11 +13,11 @@
       [
         [
           82.15761487435404,
-          25.744592970565503
+          25.7445929705655
         ],
         [
           82.64640887939456,
-          25.744592970565503
+          25.7445929705655
         ],
         [
           82.64640887939456,
@@ -29,7 +29,7 @@
         ],
         [
           82.15761487435404,
-          25.744592970565503
+          25.7445929705655
         ]
       ]
     ]
@@ -47,7 +47,7 @@
     "end_datetime": "2024-06-30T00:00:00Z",
     "gsd": 10,
     "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Degradation",
-    "datetime": "2025-08-22T03:21:56.958802Z"
+    "datetime": "2025-08-22T03:46:37.693236Z"
   },
   "links": [
     {
@@ -70,7 +70,7 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
-          "data_type": "int",
+          "data_type": "int32",
           "spatial_resolution": 10
         }
       ],

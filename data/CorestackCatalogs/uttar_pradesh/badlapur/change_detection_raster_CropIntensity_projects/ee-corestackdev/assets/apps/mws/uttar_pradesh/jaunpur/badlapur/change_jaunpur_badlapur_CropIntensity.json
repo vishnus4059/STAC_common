@@ -47,7 +47,7 @@
     "end_datetime": "2024-06-30T00:00:00Z",
     "gsd": 10,
     "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_CropIntensity",
-    "datetime": "2025-08-22T03:21:51.406288Z"
+    "datetime": "2025-08-22T03:46:33.437884Z"
   },
   "links": [
     {
@@ -63,7 +63,7 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
-          "data_type": "int",
+          "data_type": "int32",
           "spatial_resolution": 10
         }
       ],

@@ -47,7 +47,7 @@
     "end_datetime": "2024-06-30T00:00:00Z",
     "gsd": 25,
     "gee:asset_id": "projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_ch_raster_jaunpur_badlapur_2021",
-    "datetime": "2025-08-22T03:21:39.328332Z"
+    "datetime": "2025-08-22T03:46:15.775013Z"
   },
   "links": [
     {
@@ -63,7 +63,7 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
-          "data_type": "double",
+          "data_type": "float64",
           "spatial_resolution": 25
         }
       ],
