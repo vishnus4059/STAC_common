@@ -6,18 +6,13 @@
   "links": [
     {
       "rel": "root",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/catalog.json",
+      "href": "./catalog.json",
       "type": "application/json",
       "title": "STAC for odisha"
     },
     {
-      "rel": "self",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/catalog.json",
-      "type": "application/json"
-    },
-    {
       "rel": "child",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/catalog.json",
+      "href": "./koraput/catalog.json",
       "type": "application/json",
       "title": "STAC for koraput"
     }

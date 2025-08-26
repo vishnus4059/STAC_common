@@ -195877,9 +195877,16 @@
   },
   "links": [
     {
-      "rel": "self",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/gobindpur/swb2_saraikela-kharsawan_gobindpur.json",
-      "type": "application/json"
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC for jharkhand"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for gobindpur"
     }
   ],
   "assets": {

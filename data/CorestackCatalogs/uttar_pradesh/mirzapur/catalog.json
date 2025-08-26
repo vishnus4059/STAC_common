@@ -6,24 +6,25 @@
   "links": [
     {
       "rel": "root",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for mirzapur"
+      "title": "STAC for uttar_pradesh"
     },
     {
       "rel": "item",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "href": "./Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m/Mirzapur_Mirzapur_2023-07-01_2024-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/surface_waterbodies_mirzapur_mirzapur.json",
+      "href": "./surface_waterbodies_mirzapur_mirzapur/surface_waterbodies_mirzapur_mirzapur.json",
       "type": "application/geo+json"
     },
     {
-      "rel": "self",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/catalog.json",
-      "type": "application/json"
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for uttar_pradesh"
     }
   ],
   "title": "STAC for mirzapur"

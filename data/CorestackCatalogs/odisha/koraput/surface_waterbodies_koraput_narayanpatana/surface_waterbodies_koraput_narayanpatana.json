@@ -11768,9 +11768,16 @@
   },
   "links": [
     {
-      "rel": "self",
-      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/surface_waterbodies_koraput_narayanpatana.json",
-      "type": "application/json"
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC for odisha"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for koraput"
     }
   ],
   "assets": {
