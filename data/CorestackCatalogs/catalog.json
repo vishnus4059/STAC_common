@@ -6,31 +6,31 @@
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/catalog.json",
       "type": "application/json",
       "title": "CorestackCatalogs"
     },
     {
       "rel": "child",
-      "href": "./jharkhand/catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/jharkhand/catalog.json",
       "type": "application/json",
       "title": "STAC for jharkhand"
     },
     {
       "rel": "child",
-      "href": "./uttar_pradesh/catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/catalog.json",
       "type": "application/json",
       "title": "STAC for uttar_pradesh"
     },
     {
       "rel": "child",
-      "href": "./odisha/catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/catalog.json",
       "type": "application/json",
       "title": "STAC for odisha"
     },
     {
       "rel": "self",
-      "href": "../catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/catalog.json",
       "type": "application/json"
     }
   ],

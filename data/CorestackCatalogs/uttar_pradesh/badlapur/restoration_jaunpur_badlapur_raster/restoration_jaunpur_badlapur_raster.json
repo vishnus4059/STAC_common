@@ -1,0 +1,142 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "restoration_jaunpur_badlapur_raster",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          82.64680276956422,
+          25.743919412297245
+        ],
+        [
+          82.64680276956422,
+          26.02814636819266
+        ],
+        [
+          82.15722093971908,
+          26.02814636819266
+        ],
+        [
+          82.15722093971908,
+          25.743919412297245
+        ],
+        [
+          82.64680276956422,
+          25.743919412297245
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    615789.2357315825,
+    2847834.189372474,
+    665178.1164467001,
+    2879840.2214235524
+  ],
+  "properties": {
+    "title": "restoration",
+    "description": "Raster data for restoration_jaunpur_badlapur_raster in badlapur of uttar_pradesh",
+    "start_datetime": "2017-07-01T00:00:00Z",
+    "end_datetime": "2024-06-30T00:00:00Z",
+    "gsd": 9.58893321834543,
+    "proj:code": "EPSG:4326",
+    "proj:bbox": [
+      615789.2357315825,
+      2847834.189372474,
+      665178.1164467001,
+      2879840.2214235524
+    ],
+    "proj:shape": [
+      3164,
+      5450
+    ],
+    "datetime": "2025-08-26T07:22:09.709374Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC for uttar_pradesh"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for badlapur"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/restoration_jaunpur_badlapur_raster.tif",
+      "type": "image/tiff; application=geotiff",
+      "title": "Raster Layer",
+      "raster:bands": [
+        {
+          "data_type": "uint8",
+          "spatial_resolution": 9.58893321834543
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "Protection",
+          "description": "Protection",
+          "color_hint": "ffa500"
+        },
+        {
+          "value": 1,
+          "name": "Wide-scale Restoration",
+          "description": "Wide-scale Restoration",
+          "color_hint": "007500"
+        },
+        {
+          "value": 2,
+          "name": "Mosaic Restoration",
+          "description": "Mosaic Restoration",
+          "color_hint": "000000"
+        },
+        {
+          "value": 3,
+          "name": "Excluded Areas",
+          "description": "Excluded Areas",
+          "color_hint": "ffff00"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_restoration_jaunpur_badlapur_raster_thumbnail.png",
+      "type": "image/png",
+      "title": "Raster Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "legend": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/Restoration_style.json",
+      "type": "application/json",
+      "title": "Legend JSON",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/Restoration_style.qml",
+      "type": "application/xml",
+      "title": "Raster Style (QML)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -12,127 +12,132 @@
     },
     {
       "rel": "item",
-      "href": "./jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
+      "href": "./jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./admin_boundary_jaunpur_badlapur.json",
+      "href": "./admin_boundary_jaunpur_badlapur/admin_boundary_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./jaunpur_badlapur.json",
+      "href": "./jaunpur_badlapur/jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./terrain_raster_jaunpur_badlapur.json",
+      "href": "./terrain_raster_jaunpur_badlapur/terrain_raster_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./clart_jaunpur_badlapur.json",
+      "href": "./jaunpur_badlapur_terrain_clusters/jaunpur_badlapur_terrain_clusters.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./swb3_jaunpur_badlapur.json",
+      "href": "./clart_jaunpur_badlapur/clart_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./drainage_lines_jaunpur_badlapur.json",
+      "href": "./swb3_jaunpur_badlapur/swb3_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_jaunpur_badlapur_Afforestation.json",
+      "href": "./drainage_lines_jaunpur_badlapur/drainage_lines_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./cropping_intensity_jaunpur_badlapur_2017-23.json",
+      "href": "./change_jaunpur_badlapur_Afforestation/change_jaunpur_badlapur_Afforestation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./tree_health_ccd_raster_jaunpur_badlapur_2022.json",
+      "href": "./cropping_intensity_jaunpur_badlapur_2017-23/cropping_intensity_jaunpur_badlapur_2017-23.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Prec_annual_jaunpur_badlapur.json",
+      "href": "./tree_health_ccd_raster_jaunpur_badlapur_2022/tree_health_ccd_raster_jaunpur_badlapur_2022.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./tree_health_ch_raster_jaunpur_badlapur_2021.json",
+      "href": "./Prec_annual_jaunpur_badlapur/Prec_annual_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./tree_health_overall_change_raster_jaunpur_badlapur.json",
+      "href": "./tree_health_ch_raster_jaunpur_badlapur_2021/tree_health_ch_raster_jaunpur_badlapur_2021.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./aquifer_vector_jaunpur_badlapur.json",
+      "href": "./tree_health_overall_change_raster_jaunpur_badlapur/tree_health_overall_change_raster_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./soge_vector_jaunpur_badlapur.json",
+      "href": "./aquifer_vector_jaunpur_badlapur/aquifer_vector_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./restoration_jaunpur_badlapur_raster.json",
+      "href": "./soge_vector_jaunpur_badlapur/soge_vector_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_jaunpur_badlapur_CropIntensity.json",
+      "href": "./restoration_jaunpur_badlapur_raster/restoration_jaunpur_badlapur_raster.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_jaunpur_badlapur_Deforestation.json",
+      "href": "./change_jaunpur_badlapur_CropIntensity/change_jaunpur_badlapur_CropIntensity.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_jaunpur_badlapur_Degradation.json",
+      "href": "./change_jaunpur_badlapur_Deforestation/change_jaunpur_badlapur_Deforestation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_jaunpur_badlapur_Urbanization.json",
+      "href": "./change_jaunpur_badlapur_Degradation/change_jaunpur_badlapur_Degradation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./drought_jaunpur_badlapur_2017_2022.json",
+      "href": "./change_jaunpur_badlapur_Urbanization/change_jaunpur_badlapur_Urbanization.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Runoff_annual_jaunpur_badlapur.json",
+      "href": "./drought_jaunpur_badlapur_2017_2022/drought_jaunpur_badlapur_2017_2022.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./well_depth_net_value_jaunpur_badlapur.json",
+      "href": "./Runoff_annual_jaunpur_badlapur/Runoff_annual_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./filtered_delta_g_annual_jaunpur_badlapur_uid.json",
+      "href": "./well_depth_net_value_jaunpur_badlapur/well_depth_net_value_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./filtered_delta_g_fortnight_jaunpur_badlapur_uid.json",
+      "href": "./filtered_delta_g_annual_jaunpur_badlapur_uid/filtered_delta_g_annual_jaunpur_badlapur_uid.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./filtered_delta_g_fortnight_jaunpur_badlapur_uid/filtered_delta_g_fortnight_jaunpur_badlapur_uid.json",
       "type": "application/geo+json"
     },
     {
