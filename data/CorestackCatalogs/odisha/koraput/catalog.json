@@ -1,0 +1,30 @@
+{
+  "type": "Catalog",
+  "id": "koraput",
+  "stac_version": "1.1.0",
+  "description": "STAC catalog for koraput block data in odisha",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/catalog.json",
+      "type": "application/json",
+      "title": "STAC for koraput"
+    },
+    {
+      "rel": "item",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/Narayanpatana_Koraput_2023-07-01_2024-06-30_LULCmap_10m.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/surface_waterbodies_koraput_narayanpatana.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "STAC for koraput"
+}

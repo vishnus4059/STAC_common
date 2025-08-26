@@ -6,145 +6,139 @@
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/catalog.json",
       "type": "application/json",
-      "title": "CorestackCatalogs"
+      "title": "STAC for badlapur"
     },
     {
       "rel": "item",
-      "href": "./LULC_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m/LULC_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./admin_boundary_admin_boundary_jaunpur_badlapur/admin_boundary_admin_boundary_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/admin_boundary_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./nrega_assets_jaunpur_badlapur/nrega_assets_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./terrain_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur/terrain_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/terrain_raster_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/terrain_raster_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./terrain_vector_jaunpur_badlapur_terrain_clusters/terrain_vector_jaunpur_badlapur_terrain_clusters.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/clart_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./CLART_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/clart_jaunpur_badlapur/CLART_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/clart_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/swb3_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Surface_Water_bodies_swb3_jaunpur_badlapur/Surface_Water_bodies_swb3_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/drainage_lines_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Drainage_lines_drainage_lines_jaunpur_badlapur/Drainage_lines_drainage_lines_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/change_jaunpur_badlapur_Afforestation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Change_detection_raster_Afforestation_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Afforestation/Change_detection_raster_Afforestation_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Afforestation.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/cropping_intensity_jaunpur_badlapur_2017-23.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Cropping_intensity_cropping_intensity_jaunpur_badlapur_2017-23/Cropping_intensity_cropping_intensity_jaunpur_badlapur_2017-23.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/tree_health_ccd_raster_jaunpur_badlapur_2022.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./Prec_annual_Prec_annual_jaunpur_badlapur/Prec_annual_Prec_annual_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/Prec_annual_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./tree_health_ch_raster_2021_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_ch_raster_jaunpur_badlapur_2021/tree_health_ch_raster_2021_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_ch_raster_jaunpur_badlapur_2021.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/tree_health_ch_raster_jaunpur_badlapur_2021.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./tree_health_overall_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_overall_change_raster_jaunpur_badlapur/tree_health_overall_raster_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/tree_health_overall_change_raster_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/tree_health_overall_change_raster_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./aquifer_vector_aquifer_vector_jaunpur_badlapur/aquifer_vector_aquifer_vector_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/aquifer_vector_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./soge_vector_soge_vector_jaunpur_badlapur/soge_vector_soge_vector_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/soge_vector_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./restoration_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/restoration_jaunpur_badlapur_raster/restoration_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/restoration_jaunpur_badlapur_raster.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/restoration_jaunpur_badlapur_raster.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_detection_raster_CropIntensity_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_CropIntensity/change_detection_raster_CropIntensity_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_CropIntensity.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/change_jaunpur_badlapur_CropIntensity.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_detection_raster_Deforestation_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Deforestation/change_detection_raster_Deforestation_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Deforestation.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/change_jaunpur_badlapur_Deforestation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_detection_raster_Degradation_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Degradation/change_detection_raster_Degradation_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Degradation.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/change_jaunpur_badlapur_Degradation.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./change_detection_raster_Urbanization_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Urbanization/change_detection_raster_Urbanization_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/change_jaunpur_badlapur_Urbanization.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/change_jaunpur_badlapur_Urbanization.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./drought_frequency_drought_jaunpur_badlapur_2017_2022/drought_frequency_drought_jaunpur_badlapur_2017_2022.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/drought_jaunpur_badlapur_2017_2022.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./runoff_annual_Runoff_annual_jaunpur_badlapur/runoff_annual_Runoff_annual_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/Runoff_annual_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./well_depth_annual_well_depth_net_value_jaunpur_badlapur/well_depth_annual_well_depth_net_value_jaunpur_badlapur.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/well_depth_net_value_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./deltaG_annual_filtered_delta_g_annual_jaunpur_badlapur_uid/deltaG_annual_filtered_delta_g_annual_jaunpur_badlapur_uid.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/filtered_delta_g_annual_jaunpur_badlapur_uid.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./deltaG_fortnight_filtered_delta_g_fortnight_jaunpur_badlapur_uid/deltaG_fortnight_filtered_delta_g_fortnight_jaunpur_badlapur_uid.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/filtered_delta_g_fortnight_jaunpur_badlapur_uid.json",
       "type": "application/geo+json"
     },
     {
-      "rel": "item",
-      "href": "./lulc_raster_2017_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/jaunpur_badlapur_2017-07-01_2018-06-30_LULCmap_10m/lulc_raster_2017_projects/ee-corestackdev/assets/apps/mws/uttar_pradesh/jaunpur/badlapur/jaunpur_badlapur_2017-07-01_2018-06-30_LULCmap_10m.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/catalog.json",
+      "type": "application/json"
     }
   ],
   "title": "STAC for badlapur"

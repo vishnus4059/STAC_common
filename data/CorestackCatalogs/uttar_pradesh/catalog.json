@@ -5,22 +5,27 @@
   "description": "STAC catalog for data in uttar_pradesh",
   "links": [
     {
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/catalog.json",
+      "type": "application/json"
+    },
+    {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/catalog.json",
       "type": "application/json",
-      "title": "CorestackCatalogs"
+      "title": "STAC for uttar_pradesh"
     },
     {
       "rel": "child",
-      "href": "./badlapur/catalog.json",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/mirzapur/catalog.json",
       "type": "application/json",
-      "title": "STAC for badlapur"
+      "title": "STAC for mirzapur"
     },
     {
-      "rel": "parent",
-      "href": "../catalog.json",
+      "rel": "child",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/uttar_pradesh/badlapur/catalog.json",
       "type": "application/json",
-      "title": "CorestackCatalogs"
+      "title": "STAC for badlapur"
     }
   ],
   "title": "STAC for uttar_pradesh"

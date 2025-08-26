@@ -1,0 +1,26 @@
+{
+  "type": "Catalog",
+  "id": "odisha",
+  "stac_version": "1.1.0",
+  "description": "STAC catalog for data in odisha",
+  "links": [
+    {
+      "rel": "root",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/catalog.json",
+      "type": "application/json",
+      "title": "STAC for odisha"
+    },
+    {
+      "rel": "self",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "/home/vishnu/STAC-spec-raster/STAC-spec/data/CorestackCatalogs/odisha/koraput/catalog.json",
+      "type": "application/json",
+      "title": "STAC for koraput"
+    }
+  ],
+  "title": "STAC for odisha"
+}
