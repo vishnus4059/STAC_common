@@ -12,17 +12,17 @@
     },
     {
       "rel": "item",
-      "href": "./jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
+      "href": "./jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./admin_boundary_jaunpur_badlapur/admin_boundary_jaunpur_badlapur.json",
+      "href": "./admin_boundary_jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./jaunpur_badlapur/jaunpur_badlapur.json",
+      "href": "./jaunpur_badlapur.json",
       "type": "application/geo+json"
     },
     {
