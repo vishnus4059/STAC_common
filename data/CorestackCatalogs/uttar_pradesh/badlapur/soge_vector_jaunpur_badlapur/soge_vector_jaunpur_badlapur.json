@@ -48863,14 +48863,14 @@
         "description": ""
       }
     ],
-    "datetime": "2025-08-26T07:22:05.198750Z"
+    "datetime": "2025-08-27T05:45:15.633671Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "STAC for badlapur"
     },
     {
       "rel": "parent",

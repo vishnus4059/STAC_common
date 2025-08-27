@@ -57,14 +57,14 @@
       3150,
       5442
     ],
-    "datetime": "2025-08-26T07:21:26.431525Z"
+    "datetime": "2025-08-27T05:44:44.586604Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "STAC for badlapur"
     },
     {
       "rel": "parent",
@@ -80,6 +80,7 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
+          "nodata": 0,
           "data_type": "uint8",
           "spatial_resolution": 9.589087846259165
         }

@@ -6,9 +6,9 @@
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "./catalog.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "STAC for badlapur"
     },
     {
       "rel": "item",
@@ -28,11 +28,6 @@
     {
       "rel": "item",
       "href": "./terrain_raster_jaunpur_badlapur/terrain_raster_jaunpur_badlapur.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./jaunpur_badlapur_terrain_clusters/jaunpur_badlapur_terrain_clusters.json",
       "type": "application/geo+json"
     },
     {
@@ -139,12 +134,6 @@
       "rel": "item",
       "href": "./filtered_delta_g_fortnight_jaunpur_badlapur_uid/filtered_delta_g_fortnight_jaunpur_badlapur_uid.json",
       "type": "application/geo+json"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "STAC for uttar_pradesh"
     }
   ],
   "title": "STAC for badlapur"

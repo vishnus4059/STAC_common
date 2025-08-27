@@ -57,7 +57,7 @@
       4908,
       5808
     ],
-    "datetime": "2025-08-26T07:20:51.415845Z"
+    "datetime": "2025-08-27T05:44:18.882234Z"
   },
   "links": [
     {
@@ -73,6 +73,7 @@
       "title": "Raster Layer",
       "raster:bands": [
         {
+          "nodata": 0,
           "data_type": "float64",
           "spatial_resolution": 9.827629984712452
         }

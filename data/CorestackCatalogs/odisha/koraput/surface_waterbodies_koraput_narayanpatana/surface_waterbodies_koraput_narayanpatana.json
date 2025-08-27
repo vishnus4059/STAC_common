@@ -11764,14 +11764,14 @@
         "description": ""
       }
     ],
-    "datetime": "2025-08-26T07:20:51.961651Z"
+    "datetime": "2025-08-27T05:44:19.258175Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for odisha"
+      "title": "STAC for koraput"
     },
     {
       "rel": "parent",

@@ -6402,14 +6402,14 @@
         "description": ""
       }
     ],
-    "datetime": "2025-08-26T07:20:38.458255Z"
+    "datetime": "2025-08-27T05:44:10.068815Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "STAC for mirzapur"
     },
     {
       "rel": "parent",

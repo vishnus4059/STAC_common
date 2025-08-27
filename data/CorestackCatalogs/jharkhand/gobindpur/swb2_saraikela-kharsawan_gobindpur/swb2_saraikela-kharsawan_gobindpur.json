@@ -195873,14 +195873,14 @@
         "description": ""
       }
     ],
-    "datetime": "2025-08-26T07:20:24.491862Z"
+    "datetime": "2025-08-27T05:43:57.180813Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for jharkhand"
+      "title": "STAC for gobindpur"
     },
     {
       "rel": "parent",

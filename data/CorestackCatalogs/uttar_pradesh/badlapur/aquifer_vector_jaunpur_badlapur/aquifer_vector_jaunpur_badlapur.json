@@ -48918,14 +48918,14 @@
         "description": ""
       }
     ],
-    "datetime": "2025-08-26T07:22:03.959720Z"
+    "datetime": "2025-08-27T05:45:14.339208Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../../catalog.json",
+      "href": "../catalog.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "STAC for badlapur"
     },
     {
       "rel": "parent",
