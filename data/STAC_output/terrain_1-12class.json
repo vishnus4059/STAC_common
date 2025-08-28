@@ -1,5 +1,11 @@
 [
   {
+    "value": 0,
+    "label": "No data",
+    "alpha": "0",
+    "color": "#ffffff"
+  },
+  {
     "value": 1,
     "label": "V-shape river valleys, Deep narrow canyons",
     "color": "#313695",
@@ -67,6 +73,7 @@
   },
   {
     "value": 12,
+    "label": "No data",
     "color": "#ffffff",
     "alpha": "255"
   }
