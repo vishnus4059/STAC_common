@@ -1,12 +1,12 @@
 {
-  "type": "Catalog",
+  "type": "Collection",
   "id": "badlapur",
   "stac_version": "1.1.0",
   "description": "STAC catalog for badlapur block data in uttar_pradesh",
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "./collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     },
@@ -136,5 +136,44 @@
       "type": "application/geo+json"
     }
   ],
-  "title": "STAC for badlapur"
+  "title": "STAC for badlapur",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          615825.8097596983,
+          2847904.150032287,
+          665141.1993604847,
+          2879770.1117984354
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-07-01T00:00:00Z",
+          "2020-06-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "geospatial",
+    "remote sensing",
+    "change detection",
+    "urbanization",
+    "badlapur",
+    "uttar_pradesh"
+  ],
+  "providers": [
+    {
+      "name": "Corestack",
+      "roles": [
+        "producer",
+        "processor"
+      ],
+      "url": "https://core-stack.org/"
+    }
+  ]
 }

@@ -48818,18 +48818,24 @@
         "description": ""
       }
     ],
-    "datetime": "2025-08-27T05:45:44.922474Z"
+    "datetime": "2025-09-03T04:16:10.157553Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "STAC for badlapur"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     }
@@ -48859,5 +48865,6 @@
         "metadata"
       ]
     }
-  }
+  },
+  "collection": "badlapur"
 }

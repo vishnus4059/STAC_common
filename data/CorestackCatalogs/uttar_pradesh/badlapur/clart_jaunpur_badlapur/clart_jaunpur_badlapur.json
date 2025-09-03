@@ -57,18 +57,24 @@
       3155,
       5446
     ],
-    "datetime": "2025-08-27T05:44:34.799473Z"
+    "datetime": "2025-09-03T04:13:41.431715Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "STAC for badlapur"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     }
@@ -145,5 +151,6 @@
         "metadata"
       ]
     }
-  }
+  },
+  "collection": "badlapur"
 }

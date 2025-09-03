@@ -57,18 +57,24 @@
       3155,
       5446
     ],
-    "datetime": "2025-08-27T05:44:29.361413Z"
+    "datetime": "2025-09-03T04:13:30.807032Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "STAC for badlapur"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     }
@@ -86,6 +92,12 @@
         }
       ],
       "classification:classes": [
+        {
+          "value": 0,
+          "name": "No data",
+          "description": "No data",
+          "color_hint": "ffffff"
+        },
         {
           "value": 1,
           "name": "V-shape river valleys, Deep narrow canyons",
@@ -154,7 +166,8 @@
         },
         {
           "value": 12,
-          "name": "Class 12",
+          "name": "No data",
+          "description": "No data",
           "color_hint": "ffffff"
         }
       ],
@@ -186,5 +199,6 @@
         "metadata"
       ]
     }
-  }
+  },
+  "collection": "badlapur"
 }

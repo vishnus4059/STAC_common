@@ -57,18 +57,24 @@
       3164,
       5450
     ],
-    "datetime": "2025-08-27T05:45:21.244378Z"
+    "datetime": "2025-09-03T04:15:03.618456Z"
   },
   "links": [
     {
       "rel": "root",
-      "href": "../catalog.json",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "STAC for badlapur"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     },
     {
       "rel": "parent",
-      "href": "../catalog.json",
+      "href": "../collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     }
@@ -88,27 +94,27 @@
       "classification:classes": [
         {
           "value": 0,
-          "name": "Protection",
-          "description": "Protection",
-          "color_hint": "ffa500"
+          "name": "Excluded",
+          "description": "Excluded",
+          "color_hint": "d2d2d2"
         },
         {
           "value": 1,
-          "name": "Wide-scale Restoration",
-          "description": "Wide-scale Restoration",
-          "color_hint": "007500"
+          "name": "Mosain Restoration",
+          "description": "Mosain Restoration",
+          "color_hint": "d79b0f"
         },
         {
           "value": 2,
-          "name": "Mosaic Restoration",
-          "description": "Mosaic Restoration",
-          "color_hint": "000000"
+          "name": "Wide scale Restoration",
+          "description": "Wide scale Restoration",
+          "color_hint": "0f077c"
         },
         {
           "value": 3,
-          "name": "Excluded Areas",
-          "description": "Excluded Areas",
-          "color_hint": "ffff00"
+          "name": "Protection",
+          "description": "Protection",
+          "color_hint": "4fbc14"
         }
       ],
       "roles": [
@@ -139,5 +145,6 @@
         "metadata"
       ]
     }
-  }
+  },
+  "collection": "badlapur"
 }
