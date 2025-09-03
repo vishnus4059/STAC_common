@@ -12,9 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "./uttar_pradesh/catalog.json",
+      "href": "./uttar_pradesh/collection.json",
       "type": "application/json",
-      "title": "STAC for uttar_pradesh"
+      "title": "Data for uttar_pradesh"
     }
   ],
   "title": "CorestackCatalogs"

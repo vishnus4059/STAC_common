@@ -1,0 +1,41 @@
+{
+  "type": "Catalog",
+  "id": "badlapur",
+  "stac_version": "1.1.0",
+  "description": "STAC catalog for badlapur block data in jaunpur, uttar_pradesh",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "CorestackCatalogs"
+    },
+    {
+      "rel": "item",
+      "href": "./jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m/jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./admin_boundary_jaunpur_badlapur/admin_boundary_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./jaunpur_badlapur/jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./terrain_raster_jaunpur_badlapur/terrain_raster_jaunpur_badlapur.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC for jaunpur"
+    }
+  ],
+  "title": "STAC for badlapur"
+}
