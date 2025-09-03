@@ -12,7 +12,7 @@
     },
     {
       "rel": "child",
-      "href": "./badlapur/catalog.json",
+      "href": "./badlapur/collection.json",
       "type": "application/json",
       "title": "STAC for badlapur"
     },
