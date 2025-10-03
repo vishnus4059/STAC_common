@@ -1,0 +1,176 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "lulc_2023___2024",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          68.11403776613543,
+          8.078010360916384
+        ],
+        [
+          68.11403776613543,
+          37.0783226781469
+        ],
+        [
+          97.40962631725603,
+          37.0783226781469
+        ],
+        [
+          97.40962631725603,
+          8.078010360916384
+        ],
+        [
+          68.11403776613543,
+          8.078010360916384
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    68.11403776613543,
+    8.078010360916384,
+    97.40962631725603,
+    37.0783226781469
+  ],
+  "properties": {
+    "proj:code": "EPSG:4326",
+    "proj:shape": [
+      322830,
+      326117
+    ],
+    "datetime": "2025-10-03T08:27:40.118798Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Earth Engine Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Earth Engine Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/LULC_v3_river_basin/pan_india_lulc_v3_2023_2024",
+      "title": "Earth Engine Asset Link",
+      "raster:bands": [
+        {
+          "data_type": "PixelType",
+          "spatial_resolution": 8.983152841195215e-05
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "clear",
+          "description": "clear",
+          "color_hint": "000000"
+        },
+        {
+          "value": 1,
+          "name": "built up",
+          "description": "built up",
+          "color_hint": "ff0000"
+        },
+        {
+          "value": 2,
+          "name": "kharif water",
+          "description": "kharif water",
+          "color_hint": "74ccf4"
+        },
+        {
+          "value": 3,
+          "name": "kharif and rabi water",
+          "description": "kharif and rabi water",
+          "color_hint": "1ca3ec"
+        },
+        {
+          "value": 4,
+          "name": "kharif and rabi and zaid water",
+          "description": "kharif and rabi and zaid water",
+          "color_hint": "0f5e9c"
+        },
+        {
+          "value": 5,
+          "name": "crops",
+          "description": "crops",
+          "color_hint": "f1c232"
+        },
+        {
+          "value": 6,
+          "name": "trees",
+          "description": "trees",
+          "color_hint": "38761d"
+        },
+        {
+          "value": 7,
+          "name": "barren land",
+          "description": "barren land",
+          "color_hint": "a9a9a9"
+        },
+        {
+          "value": 8,
+          "name": "single kharif cropping",
+          "description": "single kharif cropping",
+          "color_hint": "bad93e"
+        },
+        {
+          "value": 9,
+          "name": "single non-kharif Cropping",
+          "description": "single non-kharif Cropping",
+          "color_hint": "f59d22"
+        },
+        {
+          "value": 10,
+          "name": "double cropping",
+          "description": "double cropping",
+          "color_hint": "ff9371"
+        },
+        {
+          "value": 11,
+          "name": "tripple/annual/perennial cropping",
+          "description": "tripple/annual/perennial cropping",
+          "color_hint": "b3561d"
+        },
+        {
+          "value": 12,
+          "name": "shrubs and scrubs",
+          "description": "shrubs and scrubs",
+          "color_hint": "a9a9a9"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Land/LULC0_12class.qml",
+      "type": "application/xml",
+      "title": "QGIS Style file",
+      "roles": [
+        "metadata",
+        "visualisation"
+      ]
+    }
+  },
+  "collection": "panindia-layers"
+}
