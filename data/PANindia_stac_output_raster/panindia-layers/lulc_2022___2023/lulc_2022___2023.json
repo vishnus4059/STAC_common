@@ -46,7 +46,7 @@
       322830,
       326117
     ],
-    "datetime": "2025-10-03T08:27:37.656219Z"
+    "datetime": "2025-10-03T09:37:25.679166Z"
   },
   "links": [
     {
@@ -59,23 +59,23 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Pan India Earth Engine Layers"
+      "title": "Pan India Layers"
     },
     {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Pan India Earth Engine Layers"
+      "title": "Pan India Layers"
     }
   ],
   "assets": {
     "data": {
       "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/LULC_v3_river_basin/pan_india_lulc_v3_2022_2023",
-      "title": "Earth Engine Asset Link",
+      "title": "Asset Link",
       "raster:bands": [
         {
           "data_type": "PixelType",
-          "spatial_resolution": 8.983152841195215e-05
+          "spatial_resolution": 10
         }
       ],
       "classification:classes": [

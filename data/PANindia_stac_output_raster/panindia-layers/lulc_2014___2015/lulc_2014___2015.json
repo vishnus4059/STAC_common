@@ -6,47 +6,47 @@
     "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
     "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
   ],
-  "id": "lulc_2017___2018",
+  "id": "lulc_2014___2015",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          2776047.4057766143,
-          2240852.258859355
+          2412612.957648442,
+          2021749.4802112617
         ],
         [
-          2776047.4057766143,
-          5456316.258859355
+          2412612.957648442,
+          5595613.480211262
         ],
         [
-          5694375.405776614,
-          5456316.258859355
+          5899844.957648442,
+          5595613.480211262
         ],
         [
-          5694375.405776614,
-          2240852.258859355
+          5899844.957648442,
+          2021749.4802112617
         ],
         [
-          2776047.4057766143,
-          2240852.258859355
+          2412612.957648442,
+          2021749.4802112617
         ]
       ]
     ]
   },
   "bbox": [
-    2776047.4057766143,
-    2240852.258859355,
-    5694375.405776614,
-    5456316.258859355
+    2412612.957648442,
+    2021749.4802112617,
+    5899844.957648442,
+    5595613.480211262
   ],
   "properties": {
     "proj:wkt2": "PROJCS[\"WGS_1984_Lambert_Conformal_Conic\", \n  GEOGCS[\"WGS 84\", \n    DATUM[\"WGS_1984\", \n      SPHEROID[\"WGS 84\", 6378137.0, 298.257223563, AUTHORITY[\"EPSG\",\"7030\"]], \n      AUTHORITY[\"EPSG\",\"6326\"]], \n    PRIMEM[\"Greenwich\", 0.0], \n    UNIT[\"degree\", 0.017453292519943295], \n    AXIS[\"Longitude\", EAST], \n    AXIS[\"Latitude\", NORTH], \n    AUTHORITY[\"EPSG\",\"4326\"]], \n  PROJECTION[\"Lambert_Conformal_Conic_2SP\"], \n  PARAMETER[\"central_meridian\", 80.0], \n  PARAMETER[\"latitude_of_origin\", 24.0], \n  PARAMETER[\"standard_parallel_1\", 35.17280555], \n  PARAMETER[\"false_easting\", 4000000.0], \n  PARAMETER[\"false_northing\", 4000000.0], \n  PARAMETER[\"scale_factor\", 1.0], \n  PARAMETER[\"standard_parallel_2\", 12.4729444], \n  UNIT[\"m\", 1.0], \n  AXIS[\"Easting\", EAST], \n  AXIS[\"Northing\", NORTH]]",
     "proj:shape": [
-      57419,
-      52113
+      63819,
+      62272
     ],
-    "datetime": "2025-10-03T09:38:05.495829Z"
+    "datetime": "2025-10-03T09:37:57.798785Z"
   },
   "links": [
     {
@@ -70,7 +70,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/WRI/lulc250k_2017_2018_pan_india",
+      "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/WRI/lulc250k_2014_2015_pan_india",
       "title": "Asset Link",
       "raster:bands": [
         {

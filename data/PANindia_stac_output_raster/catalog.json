@@ -1,8 +1,8 @@
 {
   "type": "Catalog",
-  "id": "PANindia_root",
+  "id": "PANindia",
   "stac_version": "1.1.0",
-  "description": "Root catalog for all Earth Engine assets and their metadata.",
+  "description": "Root catalog for PAN India Assets and their metadata.",
   "links": [
     {
       "rel": "root",
@@ -14,7 +14,7 @@
       "rel": "child",
       "href": "./panindia-layers/collection.json",
       "type": "application/json",
-      "title": "Pan India Earth Engine Layers"
+      "title": "Pan India Layers"
     }
   ],
   "title": "STAC Catalog for PAN India Assets"
