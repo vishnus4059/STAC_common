@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "canopy_density_2021_2022",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          180.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          360.0,
+          0.0
+        ],
+        [
+          360.0,
+          180.0
+        ],
+        [
+          0.0,
+          180.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    0,
+    180,
+    360,
+    0
+  ],
+  "properties": {
+    "proj:shape": [
+      180,
+      360
+    ],
+    "datetime": "2025-10-06T05:57:25.037012Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/tree_health/modal_ccd_2021",
+      "title": "Asset Link",
+      "raster:bands": [
+        {
+          "data_type": "PixelType",
+          "spatial_resolution": 111319.49079327357
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "0.0000",
+          "description": "0.0000",
+          "color_hint": "ffa500"
+        },
+        {
+          "value": 1,
+          "name": "1.0000",
+          "description": "1.0000",
+          "color_hint": "007500"
+        },
+        {
+          "value": 2,
+          "name": "2.0000",
+          "description": "2.0000",
+          "color_hint": "000000"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Tree%20Health/ccd_style.qml",
+      "type": "application/xml",
+      "title": "QGIS Style file",
+      "roles": [
+        "metadata",
+        "visualisation"
+      ]
+    }
+  },
+  "collection": "panindia-layers"
+}
