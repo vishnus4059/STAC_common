@@ -1,0 +1,8 @@
+[
+  { "value": 1, "name": "Water" },
+  { "value": 2, "name": "Urban" },
+  { "value": 3, "name": "Forest" },
+  { "value": 4, "name": "Cropland" },
+  { "value": 5, "name": "Barren" }
+]
+

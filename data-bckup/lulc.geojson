@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "class": "Forest",
+        "confidence": 0.95
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [75.0, 18.0],
+            [75.0, 20.0],
+            [78.0, 20.0],
+            [78.0, 18.0],
+            [75.0, 18.0]
+          ]
+        ]
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "lulc--wris-2005-2017",
+  "stac_version": "1.1.0",
+  "description": "Layers related to the theme: LULC- WRIS: 2005-2017.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    }
+  ],
+  "title": "LULC- WRIS: 2005-2017",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          68,
+          8,
+          98,
+          37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T00:00:00Z",
+          "2025-10-06T08:20:28.229947Z"
+        ]
+      ]
+    }
+  },
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "providers": [
+    {
+      "name": "Corestack",
+      "roles": [
+        "producer",
+        "processor",
+        "host",
+        "licensor"
+      ],
+      "url": "https://core-stack.org/"
+    }
+  ]
+}
