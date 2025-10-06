@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "restoration_opportunities",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -261255.0,
+          761951.0
+        ],
+        [
+          -261255.0,
+          4246151.0
+        ],
+        [
+          2806065.0,
+          4246151.0
+        ],
+        [
+          2806065.0,
+          761951.0
+        ],
+        [
+          -261255.0,
+          761951.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -261255,
+    761951,
+    2806065,
+    4246151
+  ],
+  "properties": {
+    "proj:shape": [
+      58070,
+      51122
+    ],
+    "datetime": "2025-10-06T06:08:46.831125Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/WRI/LandscapeRestorationOpportunities",
+      "title": "Asset Link",
+      "raster:bands": [
+        {
+          "data_type": "PixelType",
+          "spatial_resolution": 60
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "Excluded",
+          "description": "Excluded",
+          "color_hint": "d2d2d2"
+        },
+        {
+          "value": 1,
+          "name": "Mosain Restoration",
+          "description": "Mosain Restoration",
+          "color_hint": "d79b0f"
+        },
+        {
+          "value": 2,
+          "name": "Wide scale Restoration",
+          "description": "Wide scale Restoration",
+          "color_hint": "0f077c"
+        },
+        {
+          "value": 3,
+          "name": "Protection",
+          "description": "Protection",
+          "color_hint": "4fbc14"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Restoration/Restoration_style.qml",
+      "type": "application/xml",
+      "title": "QGIS Style file",
+      "roles": [
+        "metadata",
+        "visualisation"
+      ]
+    }
+  },
+  "collection": "panindia-layers"
+}

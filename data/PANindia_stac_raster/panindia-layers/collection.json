@@ -1,0 +1,1139 @@
+{
+  "type": "Collection",
+  "id": "panindia-layers",
+  "stac_version": "1.1.0",
+  "description": "A collection of various geospatial layers for Pan India.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2015/wasteland_atlas_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2008/wasteland_atlas_2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./land_degradation_(wris)/land_degradation_(wris).json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./distance_to_upstream_drainage_line/distance_to_upstream_drainage_line.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./restoration_opportunities/restoration_opportunities.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2017_2018/canopy_density_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2018_2019/canopy_density_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2019_2020/canopy_density_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2020_2021/canopy_density_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2021_2022/canopy_density_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2017_2018/canopy_height_distribution_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2018_2019/canopy_height_distribution_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2019_2020/canopy_height_distribution_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2020_2021/canopy_height_distribution_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2021_2022/canopy_height_distribution_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./tree_cover_change_to_track_improvement_and_degradation/tree_cover_change_to_track_improvement_and_degradation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation/ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2015/wasteland_atlas_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2008/wasteland_atlas_2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./land_degradation_(wris)/land_degradation_(wris).json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./distance_to_upstream_drainage_line/distance_to_upstream_drainage_line.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./restoration_opportunities/restoration_opportunities.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2017_2018/canopy_density_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2018_2019/canopy_density_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2019_2020/canopy_density_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2020_2021/canopy_density_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2021_2022/canopy_density_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2017_2018/canopy_height_distribution_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2018_2019/canopy_height_distribution_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2019_2020/canopy_height_distribution_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2020_2021/canopy_height_distribution_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2021_2022/canopy_height_distribution_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./tree_cover_change_to_track_improvement_and_degradation/tree_cover_change_to_track_improvement_and_degradation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation/ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2015/wasteland_atlas_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2008/wasteland_atlas_2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./land_degradation_(wris)/land_degradation_(wris).json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./distance_to_upstream_drainage_line/distance_to_upstream_drainage_line.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./restoration_opportunities/restoration_opportunities.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2017_2018/canopy_density_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2018_2019/canopy_density_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2019_2020/canopy_density_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2020_2021/canopy_density_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2021_2022/canopy_density_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2017_2018/canopy_height_distribution_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2018_2019/canopy_height_distribution_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2019_2020/canopy_height_distribution_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2020_2021/canopy_height_distribution_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2021_2022/canopy_height_distribution_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./tree_cover_change_to_track_improvement_and_degradation/tree_cover_change_to_track_improvement_and_degradation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation/ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2015/wasteland_atlas_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2008/wasteland_atlas_2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./land_degradation_(wris)/land_degradation_(wris).json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./distance_to_upstream_drainage_line/distance_to_upstream_drainage_line.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./restoration_opportunities/restoration_opportunities.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2018___2019/lulc_2018___2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2019___2020/lulc_2019___2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2020___2021/lulc_2020___2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2021___2022/lulc_2021___2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2022___2023/lulc_2022___2023.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2023___2024/lulc_2023___2024.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2005___2006/lulc_2005___2006.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2006___2007/lulc_2006___2007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2007___2008/lulc_2007___2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2008___2009/lulc_2008___2009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2009___2010/lulc_2009___2010.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2010___2011/lulc_2010___2011.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2011___2012/lulc_2011___2012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2012___2013/lulc_2012___2013.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2013___2014/lulc_2013___2014.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2014___2015/lulc_2014___2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2015___2016/lulc_2015___2016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2016___2017/lulc_2016___2017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lulc_2017___2018/lulc_2017___2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2017_2018/canopy_density_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2018_2019/canopy_density_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2019_2020/canopy_density_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2020_2021/canopy_density_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_density_2021_2022/canopy_density_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2017_2018/canopy_height_distribution_2017_2018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2018_2019/canopy_height_distribution_2018_2019.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2019_2020/canopy_height_distribution_2019_2020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2020_2021/canopy_height_distribution_2020_2021.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./canopy_height_distribution_2021_2022/canopy_height_distribution_2021_2022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./tree_cover_change_to_track_improvement_and_degradation/tree_cover_change_to_track_improvement_and_degradation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation/ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2015/wasteland_atlas_2015.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./wasteland_atlas_2008/wasteland_atlas_2008.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./land_degradation_(wris)/land_degradation_(wris).json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./distance_to_upstream_drainage_line/distance_to_upstream_drainage_line.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./restoration_opportunities/restoration_opportunities.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    }
+  ],
+  "title": "Pan India Layers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-07-01T00:00:00Z",
+          "2024-06-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "keywords": [
+    "social-ecological",
+    "sustainability",
+    "CoRE stack"
+  ],
+  "providers": [
+    {
+      "name": "Corestack",
+      "roles": [
+        "producer",
+        "processor",
+        "host",
+        "licensor"
+      ],
+      "url": "https://core-stack.org/"
+    }
+  ]
+}

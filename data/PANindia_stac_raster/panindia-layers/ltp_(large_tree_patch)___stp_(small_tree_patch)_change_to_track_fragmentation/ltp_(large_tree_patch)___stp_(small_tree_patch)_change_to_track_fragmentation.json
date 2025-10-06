@@ -1,0 +1,145 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "ltp_(large_tree_patch)___stp_(small_tree_patch)_change_to_track_fragmentation",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          180.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          360.0,
+          0.0
+        ],
+        [
+          360.0,
+          180.0
+        ],
+        [
+          0.0,
+          180.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    0,
+    180,
+    360,
+    0
+  ],
+  "properties": {
+    "proj:shape": [
+      180,
+      360
+    ],
+    "datetime": "2025-10-06T06:08:24.611363Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Pan India Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://code.earthengine.google.com/?asset=projects/corestack-datasets/assets/datasets/tree_health/final_ltp_stp_change_2017_2021",
+      "title": "Asset Link",
+      "raster:bands": [
+        {
+          "data_type": "PixelType",
+          "spatial_resolution": 111319.49079327357
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "0",
+          "description": "0",
+          "color_hint": "ffffff"
+        },
+        {
+          "value": 0,
+          "name": "1",
+          "description": "1",
+          "color_hint": "ffa500"
+        },
+        {
+          "value": 1,
+          "name": "2",
+          "description": "2",
+          "color_hint": "8aff8a"
+        },
+        {
+          "value": 2,
+          "name": "3",
+          "description": "3",
+          "color_hint": "dee64c"
+        },
+        {
+          "value": 3,
+          "name": "4",
+          "description": "4",
+          "color_hint": "007500"
+        },
+        {
+          "value": 4,
+          "name": "5",
+          "description": "5",
+          "color_hint": "007500"
+        },
+        {
+          "value": 6,
+          "name": "6",
+          "description": "6",
+          "color_hint": "ff0000"
+        },
+        {
+          "value": 7,
+          "name": "7",
+          "description": "7",
+          "color_hint": "ff0000"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Catchment/ltp_stp_style.kml.qml",
+      "type": "application/xml",
+      "title": "QGIS Style file",
+      "roles": [
+        "metadata",
+        "visualisation"
+      ]
+    }
+  },
+  "collection": "panindia-layers"
+}
