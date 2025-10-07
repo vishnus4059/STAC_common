@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          82.64644344345056,
+          25.74454823299613
+        ],
+        [
+          82.64644344345056,
+          26.02751754749378
+        ],
+        [
+          82.15758026583272,
+          26.02751754749378
+        ],
+        [
+          82.15758026583272,
+          25.74454823299613
+        ],
+        [
+          82.64644344345056,
+          25.74454823299613
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    615825.8097596983,
+    2847904.150032287,
+    665141.1993604847,
+    2879770.1117984354
+  ],
+  "properties": {
+    "title": "Uttar Pradesh",
+    "description": "Land Use Land Cover (LULC) map for India built by ACT4D research group at IIT Delhi. Novelty of this approach is intra-annual classes for agriculture and water availability aligned to the agriculture seasons of India.\n\nThe Pan India map is available from 2017 onwards at 10m resolution.\nThese are the classes in the current version of LULC:\n1. builtup\n2. water in kharif only\n3. water in kharif and rabi only\n4. water in kharif, rabi and zaid (perennial water)\n5. cropland\n6. trees and forest\n7. barren land\n8. single kharif cropping\n9. single non-kharif cropping\n10. double cropping\n11. tripple cropping\n12. shrubs and scrubs\n\nInput to the model is Dynamic World output, and timeseries data from Landsat-7, Landsat-8, Sentinel-2, Sentinel-1 and MODIS. Details of methodology can be found in our technical manual and the codebase on github\n",
+    "start_datetime": "2019-07-01T00:00:00Z",
+    "end_datetime": "2020-06-30T00:00:00Z",
+    "gsd": 9.589087846259165,
+    "proj:code": "EPSG:4326",
+    "proj:bbox": [
+      615825.8097596983,
+      2847904.150032287,
+      665141.1993604847,
+      2879770.1117984354
+    ],
+    "proj:shape": [
+      3150,
+      5442
+    ],
+    "datetime": "2019-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "CoREStack Spatio Temporal Asset Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Badlapur"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/../notebooks/https:/geoserver.core-stack.org:8443/geoserver/LULC_level_1/wcs?service=WCS&version=2.0.1&request=GetCoverage&CoverageId=LULC_level_1:LULC_23_24_badlapur_level_1&format=geotiff",
+      "type": "image/tiff; application=geotiff",
+      "title": "Raster Layer",
+      "raster:bands": [
+        {
+          "nodata": 0,
+          "data_type": "float64",
+          "spatial_resolution": 9.589087846259165
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "clear",
+          "description": "clear",
+          "color_hint": "000000"
+        },
+        {
+          "value": 1,
+          "name": "built up",
+          "description": "built up",
+          "color_hint": "ff0000"
+        },
+        {
+          "value": 2,
+          "name": "kharif water",
+          "description": "kharif water",
+          "color_hint": "74ccf4"
+        },
+        {
+          "value": 3,
+          "name": "kharif and rabi water",
+          "description": "kharif and rabi water",
+          "color_hint": "1ca3ec"
+        },
+        {
+          "value": 4,
+          "name": "kharif and rabi and zaid water",
+          "description": "kharif and rabi and zaid water",
+          "color_hint": "0f5e9c"
+        },
+        {
+          "value": 5,
+          "name": "crops",
+          "description": "crops",
+          "color_hint": "f1c232"
+        },
+        {
+          "value": 6,
+          "name": "trees",
+          "description": "trees",
+          "color_hint": "38761d"
+        },
+        {
+          "value": 7,
+          "name": "barren land",
+          "description": "barren land",
+          "color_hint": "a9a9a9"
+        },
+        {
+          "value": 8,
+          "name": "single kharif cropping",
+          "description": "single kharif cropping",
+          "color_hint": "bad93e"
+        },
+        {
+          "value": 9,
+          "name": "single non-kharif Cropping",
+          "description": "single non-kharif Cropping",
+          "color_hint": "f59d22"
+        },
+        {
+          "value": 10,
+          "name": "double cropping",
+          "description": "double cropping",
+          "color_hint": "ff9371"
+        },
+        {
+          "value": 11,
+          "name": "tripple/annual/perennial cropping",
+          "description": "tripple/annual/perennial cropping",
+          "color_hint": "b3561d"
+        },
+        {
+          "value": 12,
+          "name": "shrubs and scrubs",
+          "description": "shrubs and scrubs",
+          "color_hint": "a9a9a9"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/STAC_output/badlapur_jaunpur_badlapur_2019-07-01_2020-06-30_LULCmap_10m_thumbnail.png",
+      "type": "image/png",
+      "title": "Raster Thumbnail",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/Nirzaree/STAC-spec/stac-spec-common/data/../notebooks/https:/raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Land/LULC0_12class.qml",
+      "type": "application/xml",
+      "title": "Raster Style (QML)",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
