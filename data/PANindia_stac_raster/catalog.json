@@ -12,9 +12,9 @@
     },
     {
       "rel": "child",
-      "href": "./india-thematic-data/catalog.json",
+      "href": "./panindia-layers/collection.json",
       "type": "application/json",
-      "title": "India Thematic Data"
+      "title": "CoREstack Pan India Layers"
     }
   ],
   "title": "STAC Catalog for PAN India Assets"

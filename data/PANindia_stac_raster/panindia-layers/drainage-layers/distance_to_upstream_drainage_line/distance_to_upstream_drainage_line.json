@@ -1,0 +1,146 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "id": "distance_to_upstream_drainage_line",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          68.114305556,
+          8.078194446158314
+        ],
+        [
+          68.114305556,
+          37.078194444
+        ],
+        [
+          97.40958333281377,
+          37.078194444
+        ],
+        [
+          97.40958333281377,
+          8.078194446158314
+        ],
+        [
+          68.114305556,
+          8.078194446158314
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    68.114305556,
+    8.078194446158314,
+    97.40958333281377,
+    37.078194444
+  ],
+  "properties": {
+    "proj:code": "EPSG:EPSG:4326",
+    "proj:shape": [
+      104400,
+      105463
+    ],
+    "datetime": "2025-10-07T04:52:51.111551Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Assets"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Drainage layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Drainage layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "https://code.earthengine.google.com/?asset=projects/ext-datasets/assets/datasets/distance_to_nearest_upstream_DL_raster",
+      "title": "Asset Link",
+      "raster:bands": [
+        {
+          "data_type": "PixelType",
+          "spatial_resolution": 30.922080774249864
+        }
+      ],
+      "classification:classes": [
+        {
+          "value": 0,
+          "name": "0.0000",
+          "description": "0.0000",
+          "color_hint": "0e10c7"
+        },
+        {
+          "value": 60,
+          "name": "60.0000",
+          "description": "60.0000",
+          "color_hint": "5fbcf6"
+        },
+        {
+          "value": 120,
+          "name": "120.0000",
+          "description": "120.0000",
+          "color_hint": "145626"
+        },
+        {
+          "value": 240,
+          "name": "240.0000",
+          "description": "240.0000",
+          "color_hint": "3df03c"
+        },
+        {
+          "value": 500,
+          "name": "500.0000",
+          "description": "500.0000",
+          "color_hint": "f0ee26"
+        },
+        {
+          "value": 1000,
+          "name": "1000.0000",
+          "description": "1000.0000",
+          "color_hint": "eb8115"
+        },
+        {
+          "value": 2000,
+          "name": "2000.0000",
+          "description": "2000.0000",
+          "color_hint": "dd0f08"
+        },
+        {
+          "value": 177944,
+          "name": "177944.0625",
+          "description": "177944.0625",
+          "color_hint": "7d0b1b"
+        }
+      ],
+      "roles": [
+        "data"
+      ]
+    },
+    "style": {
+      "href": "https://raw.githubusercontent.com/core-stack-org/QGIS-Styles/main/Hydrology/Distance_to_upstreamDL_style.qml",
+      "type": "application/xml",
+      "title": "QGIS Style file",
+      "roles": [
+        "metadata",
+        "visualisation"
+      ]
+    }
+  },
+  "collection": "drainage-layers"
+}
