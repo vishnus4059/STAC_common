@@ -1,0 +1,53 @@
+{
+  "type": "Collection",
+  "id": "hydrological-boundaries",
+  "stac_version": "1.1.0",
+  "description": "Sub-collection for Hydrological boundaries",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "CoREstack Pan India Vector Layers"
+    }
+  ],
+  "title": "Hydrological boundaries",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          68,
+          8,
+          98,
+          37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "CoREstack",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://core-stack.org/"
+    }
+  ]
+}

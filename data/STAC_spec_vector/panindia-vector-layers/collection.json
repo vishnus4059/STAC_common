@@ -1,0 +1,82 @@
+{
+  "type": "Collection",
+  "id": "panindia-vector-layers",
+  "stac_version": "1.1.0",
+  "description": "A collection of various vector layers for Pan India.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "child",
+      "href": "./drainage-layers/collection.json",
+      "type": "application/json",
+      "title": "Drainage layers"
+    },
+    {
+      "rel": "child",
+      "href": "./nan/collection.json",
+      "type": "application/json",
+      "title": "nan"
+    },
+    {
+      "rel": "child",
+      "href": "./hydrological-boundaries/collection.json",
+      "type": "application/json",
+      "title": "Hydrological boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./river-basin/collection.json",
+      "type": "application/json",
+      "title": "River basin"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    }
+  ],
+  "title": "CoREstack Pan India Vector Layers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          68,
+          8,
+          98,
+          37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "https://spdx.org/licenses/CC-BY-4.0.html",
+  "keywords": [
+    "vector",
+    "spatial",
+    "CoREstack"
+  ],
+  "providers": [
+    {
+      "name": "CoREstack",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://core-stack.org/"
+    }
+  ]
+}

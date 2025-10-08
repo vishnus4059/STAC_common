@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "id": "drainage_lines",
+  "geometry": {
+    "type": "LineString",
+    "coordinates": [
+      [
+        93.1808314161215,
+        22.41777827721593
+      ],
+      [
+        93.18111233948785,
+        22.41777827721593
+      ],
+      [
+        93.1813888037532,
+        22.417778277215934
+      ],
+      [
+        93.18166526801849,
+        22.41805474148125
+      ]
+    ]
+  },
+  "bbox": [
+    93.1808314161215,
+    22.41777827721593,
+    93.18166526801849,
+    22.41805474148125
+  ],
+  "properties": {
+    "type": "vector",
+    "description": "Vector data for Drainage Lines",
+    "proj:code": "EPSG:4326",
+    "datetime": "2025-10-08T08:10:43.074489Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Drainage layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Drainage layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "/content/drive/MyDrive/Pan_india/pan_india_drainage_lines.geojson",
+      "type": "application/geo+json",
+      "title": "Vector GeoJSON File",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "drainage-layers"
+}
