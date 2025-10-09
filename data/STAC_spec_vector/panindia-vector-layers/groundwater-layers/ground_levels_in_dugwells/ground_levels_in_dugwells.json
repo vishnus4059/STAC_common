@@ -1,0 +1,681 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "ground_levels_in_dugwells",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      81.18333464935793,
+      16.275000929807852
+    ]
+  },
+  "bbox": [
+    81.18333464935793,
+    16.275000929807852,
+    81.18333464935793,
+    16.275000929807852
+  ],
+  "properties": {
+    "type": "vector",
+    "description": "Vector data for Ground Levels in Dugwells",
+    "proj:code": "EPSG:4326",
+    "table:columns": [
+      {
+        "name": "1994_season1",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1994_season2",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1994_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1994_season4",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1995_season1",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1995_season2",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1995_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1995_season4",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "1996_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1996_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1996_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1996_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1997_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1997_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1997_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1997_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1998_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1998_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1998_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1998_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1999_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1999_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1999_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "1999_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2000_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2000_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2000_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2000_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2001_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2001_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2001_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2001_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2002_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2002_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2002_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2002_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2003_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2003_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2003_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2003_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2004_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2004_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2004_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2004_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2005_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2005_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2005_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2005_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2006_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2006_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2006_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2006_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2007_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2007_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2007_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2007_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2008_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2008_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2008_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2008_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2009_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2009_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2009_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2009_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2010_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2010_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2010_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2010_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2011_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2011_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2011_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2011_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2012_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2012_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2012_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2012_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2013_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2013_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2013_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2013_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2014_season1",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2014_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2014_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2014_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2015_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2015_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2015_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2015_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2016_season1",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2016_season2",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2016_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2016_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2017_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2017_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2017_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2017_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2018_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2018_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2018_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2018_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2019_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2019_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2019_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2019_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2020_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2020_season2",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2020_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2020_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2021_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2021_season2",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2021_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2021_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2022_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2022_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2022_season3",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2022_season4",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2023_season1",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2023_season2",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "2023_season3",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "2023_season4",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "objectid",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "pointInRegion",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "station_id",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "station_name",
+        "type": "str",
+        "description": ""
+      }
+    ],
+    "datetime": "2025-10-09T08:54:28.531478Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Groundwater Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Groundwater Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "/content/drive/MyDrive/Pan_india/GWL_in_dugwells.geojson",
+      "type": "application/geo+json",
+      "title": "Vector Data Link",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "groundwater-layers"
+}

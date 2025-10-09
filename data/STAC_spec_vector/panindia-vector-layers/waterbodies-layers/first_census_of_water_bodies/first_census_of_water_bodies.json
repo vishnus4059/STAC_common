@@ -1,0 +1,348 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "first_census_of_water_bodies",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": []
+  },
+  "bbox": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "properties": {
+    "type": "vector",
+    "description": "Vector data for First Census of Water Bodies",
+    "proj:code": "EPSG:4326",
+    "table:columns": [
+      {
+        "name": "Block/Tehsil Name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "District Name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "State Name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Village Name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "area_encroached_percentage",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "basin_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "cca_water_body",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "construcion_year",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "construction_cost",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "estimated_cost",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "extent_of_area_covered_by_wua",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "filled_up_storage_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "filled_up_storage_space_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "ipc_water_body",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "irrigation_potential_revived",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "ismissing",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "khasra_number",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "latitude_dec",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "layer",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "longitude_dec",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "manmade_water_body_type_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "max_depth_water_body_fully_filled",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "nature_of_storage",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "no_people_benefited_by_water_body",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "no_town_cities_benefited",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "no_villages_benefited",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "number_of_wua_formed",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "path",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "reason_water_body_in_use_name2",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "reason_water_body_in_use_name3",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "ref_reason_water_body_in_use_id1_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "ref_selection_id_dip_sip_exists_name",
+        "type": "bool",
+        "description": ""
+      },
+      {
+        "name": "ref_selection_id_encroachment_assessed_name",
+        "type": "bool",
+        "description": ""
+      },
+      {
+        "name": "ref_selection_id_water_body_encroached_name",
+        "type": "bool",
+        "description": ""
+      },
+      {
+        "name": "ref_selection_id_wua_exists_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "ref_water_body_in_use_id_name",
+        "type": "bool",
+        "description": ""
+      },
+      {
+        "name": "ref_water_body_type_id_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "ref_water_body_under_repair_renovation_restoration_id_name",
+        "type": "bool",
+        "description": ""
+      },
+      {
+        "name": "renovation_cost",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "renovation_year",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "rural_or_urban",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "scheme_inclusion_year",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "scheme_status_reason_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "scheme_under_revival_is_done",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "si_no_of_water_body_within_village_town",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "storage_capacity_water_body_original",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "storage_capacity_water_body_present",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "sub_basin_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "target_potential_revival",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "targeted_completion_year",
+        "type": "NoneType",
+        "description": ""
+      },
+      {
+        "name": "town_municipalty_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "unique_id",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "ward_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "water_body_loc_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "water_body_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "water_body_nature_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "water_body_ownership_name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "water_spread_area_of_water_body",
+        "type": "float",
+        "description": ""
+      }
+    ],
+    "datetime": "2025-10-09T08:54:28.134651Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Waterbodies Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Waterbodies Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "/content/drive/MyDrive/Pan_india/First_census_of_water_bodies.geojson",
+      "type": "application/geo+json",
+      "title": "Vector Data Link",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "waterbodies-layers"
+}

@@ -31,6 +31,26 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "./sub_basin/sub_basin.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./watershed/watershed.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./microwatershed_boundaries_v1/microwatershed_boundaries_v1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./microwatershed_boundaries_v2/microwatershed_boundaries_v2.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

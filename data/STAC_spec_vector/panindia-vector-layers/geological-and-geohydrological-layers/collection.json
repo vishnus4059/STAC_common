@@ -1,0 +1,63 @@
+{
+  "type": "Collection",
+  "id": "geological-and-geohydrological-layers",
+  "stac_version": "1.1.0",
+  "description": "Sub-collection for Geological and geohydrological layers",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "item",
+      "href": "./aquifers/aquifers.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./lithology/lithology.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "CoREstack Pan India Vector Layers"
+    }
+  ],
+  "title": "Geological and geohydrological layers",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          68,
+          8,
+          98,
+          37
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2025-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "CoREstack",
+      "roles": [
+        "producer",
+        "processor",
+        "host"
+      ],
+      "url": "https://core-stack.org/"
+    }
+  ]
+}

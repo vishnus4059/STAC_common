@@ -1,0 +1,208 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "ground_levels_in_borewells",
+  "geometry": {
+    "type": "MultiPoint",
+    "coordinates": []
+  },
+  "bbox": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "properties": {
+    "type": "vector",
+    "description": "Vector data for Ground Levels in Borewells",
+    "proj:code": "EPSG:4326",
+    "table:columns": [
+      {
+        "name": "Aquifer",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Block_Name_With_LGD_Code",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "District_Name_With_LGD_Code",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "GP_Name_With_LGD_Code",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Latitude",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "Longitude",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2015 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2016 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2017 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2018 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2019 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2020 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2021 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Post-monsoon_2022 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2015 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2016 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2017 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2018 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2019 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2020 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2021 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Pre-monsoon_2022 (meters below ground level)",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "SOURCE",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Site_Name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Sr No",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "State_Name_With_LGD_Code",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "TYPE",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Village",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "Well_Depth (meters)",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "Well_ID",
+        "type": "str",
+        "description": ""
+      }
+    ],
+    "datetime": "2025-10-09T08:54:28.881463Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Groundwater Layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Groundwater Layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "/content/drive/MyDrive/Pan_india/GWL_in_borewells.geojson",
+      "type": "application/geo+json",
+      "title": "Vector Data Link",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "groundwater-layers"
+}

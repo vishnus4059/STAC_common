@@ -1,0 +1,197 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "lithology",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          96.5834287236299,
+          27.85004245408171
+        ],
+        [
+          96.54171611131898,
+          27.85089196123833
+        ],
+        [
+          96.50000343610017,
+          27.851741384163063
+        ],
+        [
+          96.50000343610017,
+          27.833334241481882
+        ],
+        [
+          96.50000343610017,
+          27.74999807070728
+        ],
+        [
+          96.54167149733738,
+          27.74999806726493
+        ],
+        [
+          96.58333951869261,
+          27.749998038318473
+        ],
+        [
+          96.58333951869261,
+          27.83333419517641
+        ],
+        [
+          96.5834287236299,
+          27.85004245408171
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    96.50000343610017,
+    27.749998038318473,
+    96.5834287236299,
+    27.851741384163063
+  ],
+  "properties": {
+    "type": "vector",
+    "description": "Vector data for Lithology",
+    "proj:code": "EPSG:4326",
+    "table:columns": [
+      {
+        "name": "AGE",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "EDITION_NU",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "FORMATION",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "GROUP_NAME",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "INPUT_CENT",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "INTRUSIVE",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "LITHOLOGIC",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "MEMBER",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "NEW_GEOM_I",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "NOTATION",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "NOTATION12",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "OBJECTID",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "SCRIPT",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "STRATIGRAP",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "SUB_GROUP",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "SUPERGROUP",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "TOPOSHEET_",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "UID_NOTATI",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "layer",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "path",
+        "type": "str",
+        "description": ""
+      }
+    ],
+    "datetime": "2025-10-09T08:54:33.154985Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "STAC Catalog for PAN India Vector Layers"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Geological and geohydrological layers"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Geological and geohydrological layers"
+    }
+  ],
+  "assets": {
+    "data": {
+      "href": "/content/drive/MyDrive/Pan_india/Lithology.geojson",
+      "type": "application/geo+json",
+      "title": "Vector Data Link",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "geological-and-geohydrological-layers"
+}

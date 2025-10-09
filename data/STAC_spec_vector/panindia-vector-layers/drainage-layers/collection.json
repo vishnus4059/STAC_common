@@ -16,6 +16,11 @@
       "type": "application/geo+json"
     },
     {
+      "rel": "item",
+      "href": "./drainage_lines/drainage_lines.json",
+      "type": "application/geo+json"
+    },
+    {
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",

@@ -2,7 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
   "id": "watershed",
   "geometry": {
@@ -6198,7 +6199,89 @@
     "type": "vector",
     "description": "Vector data for Watershed",
     "proj:code": "EPSG:4326",
-    "datetime": "2025-10-08T08:10:43.479742Z"
+    "table:columns": [
+      {
+        "name": "Name",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "altitudeMo",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "area_sqkm",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "bacode",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "begin",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "descriptio",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "end",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "extrude",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "icon",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "objectid",
+        "type": "float",
+        "description": ""
+      },
+      {
+        "name": "sbcode",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "tessellate",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "timestamp",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "visibility",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "wscode",
+        "type": "str",
+        "description": ""
+      },
+      {
+        "name": "wsconc",
+        "type": "str",
+        "description": ""
+      }
+    ],
+    "datetime": "2025-10-09T07:05:03.695955Z"
   },
   "links": [
     {

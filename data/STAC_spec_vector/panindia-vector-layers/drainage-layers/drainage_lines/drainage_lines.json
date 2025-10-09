@@ -2,7 +2,8 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
   "id": "drainage_lines",
   "geometry": {
@@ -36,7 +37,49 @@
     "type": "vector",
     "description": "Vector data for Drainage Lines",
     "proj:code": "EPSG:4326",
-    "datetime": "2025-10-08T08:10:43.074489Z"
+    "table:columns": [
+      {
+        "name": "ORDER",
+        "type": "int",
+        "description": "Strahler order of stream within a network"
+      },
+      {
+        "name": "cat",
+        "type": "int",
+        "description": "category for drainage feature "
+      },
+      {
+        "name": "end_node",
+        "type": "str",
+        "description": "unique identifier for the downstream point of drainage lines"
+      },
+      {
+        "name": "id",
+        "type": "int",
+        "description": "id"
+      },
+      {
+        "name": "network",
+        "type": "int",
+        "description": ""
+      },
+      {
+        "name": "start_node",
+        "type": "str",
+        "description": "unique identifier for the upstream point of drainage lines"
+      },
+      {
+        "name": "stream_typ",
+        "type": "str",
+        "description": "stream type: what values does this take? \nstream type: start or intermediate"
+      },
+      {
+        "name": "type_code",
+        "type": "int",
+        "description": "code to classify the type of drainage feature: what values does this take? \nstart=0, intermediate=1"
+      }
+    ],
+    "datetime": "2025-10-09T08:54:27.536564Z"
   },
   "links": [
     {
@@ -62,7 +105,7 @@
     "data": {
       "href": "/content/drive/MyDrive/Pan_india/pan_india_drainage_lines.geojson",
       "type": "application/geo+json",
-      "title": "Vector GeoJSON File",
+      "title": "Vector Data Link",
       "roles": [
         "data"
       ]

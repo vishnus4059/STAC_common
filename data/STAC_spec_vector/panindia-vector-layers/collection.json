@@ -18,9 +18,9 @@
     },
     {
       "rel": "child",
-      "href": "./nan/collection.json",
+      "href": "./river-basin/collection.json",
       "type": "application/json",
-      "title": "nan"
+      "title": "River basins"
     },
     {
       "rel": "child",
@@ -30,9 +30,33 @@
     },
     {
       "rel": "child",
-      "href": "./river-basin/collection.json",
+      "href": "./administrative-boundaries/collection.json",
       "type": "application/json",
-      "title": "River basin"
+      "title": "Administrative boundaries"
+    },
+    {
+      "rel": "child",
+      "href": "./waterbodies-layers/collection.json",
+      "type": "application/json",
+      "title": "Waterbodies Layers"
+    },
+    {
+      "rel": "child",
+      "href": "./groundwater-layers/collection.json",
+      "type": "application/json",
+      "title": "Groundwater Layers"
+    },
+    {
+      "rel": "child",
+      "href": "./geological-and-geohydrological-layers/collection.json",
+      "type": "application/json",
+      "title": "Geological and geohydrological layers"
+    },
+    {
+      "rel": "child",
+      "href": "./climatic-and-biophysical-zones/collection.json",
+      "type": "application/json",
+      "title": "Climatic and biophysical zones"
     },
     {
       "rel": "parent",
